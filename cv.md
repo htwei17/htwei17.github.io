@@ -1,7 +1,8 @@
+---
 layout: page
-title: "CV"
-permalink: /cv/
+title: "Vitae"
+permalink: /cv
+---
 
-Vitae
-========
+## Education
 
