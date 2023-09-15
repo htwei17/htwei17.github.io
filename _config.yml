@@ -1,0 +1,27 @@
+# Site Settings
+title: "Haotian's site"  # Your site title
+description: "Haotian's blogging area."
+url: "https://htwei17.github.io"  # Your GitHub Pages URL
+baseurl: ""  # The subpath of your site, e.g. "/blog"
+
+# Email and social links, to appear in footer
+email: "weihaotian776@gmail.com"
+twitter_username: htwei17
+github_username:  htwei17
+
+# Build Settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll  # You can change this if you're using a different theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional Features
+# Enable this if you want to use Jekyll's built-in pagination feature
+# paginate: 5  # Posts per page
+
+# Enable this if you want to exclude files from your build
+# exclude:
+#   - README.md
+#   - Gemfile
+#   - Gemfile.lock
