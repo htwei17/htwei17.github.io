@@ -1,0 +1,21 @@
+name: Build and Deploy Jekyll
+on:
+  push:
+    branches:
+      - main  # Replace with the name of your default branch if different
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+    - name: Install dependencies
+      run: bundle install
+    - name: Build
+      run: bundle exec jekyll build
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
