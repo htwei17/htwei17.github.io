@@ -6,16 +6,31 @@ on:
 
 jobs:
   jekyll:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Specify Ubuntu 22.04 here
+    env:
+      NODE_VERSION: '16.x'
     steps:
-    - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
+    - name: Setup Node
+      uses: actions/setup-node@v2
       with:
-        ruby-version: 3.1  # Or whatever version you are targeting
-    - name: Install dependencies
+        node-version: ${{ env.NODE_VERSION }}
+
+    - name: Checkout Code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Fetch all history for all branches and tags
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1  # Specify Ruby 3.1 here
+
+    - name: Install Dependencies
       run: bundle install
+
     - name: Build
       run: bundle exec jekyll build
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
