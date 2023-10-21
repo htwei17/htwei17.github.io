@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1  # Or whatever version you are targeting
     - name: Install dependencies
       run: bundle install
     - name: Build
