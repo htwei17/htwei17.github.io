@@ -59,7 +59,7 @@ minimal_mistakes_skin: "dark"
 
 # Styling settings
 teaser: /assets/images/fanjingshan.jpeg
-# logo: /assets/images/logo.png
+logo: /assets/images/logo.png
 masthead_title: "Glimpses of the World"
 
 # Defaults
