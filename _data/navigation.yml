@@ -1,0 +1,10 @@
+# main links
+main:
+  - title: "About Self"
+    url: /
+  - title: "CV"
+    url: /cv
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
