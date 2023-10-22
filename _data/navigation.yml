@@ -1,10 +1,12 @@
 # main links
 main:
-  - title: "About Self"
+  - title: "Self"
     url: /
   - title: "CV"
     url: /cv
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Publications"
+    url: /pub
+  - title: "Proper Time"
+    url: /posts/
   # - title: "Sitemap"
   #   url: /sitemap/

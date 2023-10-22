@@ -20,7 +20,7 @@
 
 locale: "en-US" # Used by the theme to translate dates and format strings.
 
-title: Haotian's site # Your site title
+title: Haotian's Worldline # Your site title
 title_separator: "|" # Your site title separator, defaults to "|"
 name: "Haotian Wei" # Your name
 email: weihaotian776@gmail.com
@@ -44,6 +44,9 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=mu--7-UAAAAJ"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-link"
+      url: "https://orcid.org/my-orcid?orcid=0000-0001-7684-2608"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/htwei17"
@@ -60,7 +63,23 @@ minimal_mistakes_skin: "dark"
 # Styling settings
 teaser: /assets/images/fanjingshan.jpeg
 logo: /assets/images/logo.png
-masthead_title: "Glimpses of the World"
+masthead_title: Haotian's Wolrd Line
+
+# Footer links
+footer:
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=mu--7-UAAAAJ"
+    - label: "ORCID"
+      icon: "fas fa-fw fa-link"
+      url: "https://orcid.org/my-orcid?orcid=0000-0001-7684-2608"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/htwei17"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/htwei17"
 
 # Defaults
 defaults:
