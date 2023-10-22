@@ -2,37 +2,38 @@ name: Build and Deploy Jekyll
 on:
   push:
     branches:
-      - main  # Replace with the name of your default branch if different
+      - main  # This is the source branch
 
 jobs:
   jekyll:
-    runs-on: ubuntu-22.04  # Specify Ubuntu 22.04 here
+    runs-on: ubuntu-22.04
     env:
       NODE_VERSION: '16.x'
     steps:
-    - name: Setup Node
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ env.NODE_VERSION }}
-
     - name: Checkout Code
       uses: actions/checkout@v2
       with:
         fetch-depth: 0  # Fetch all history for all branches and tags
 
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1  # Specify Ruby 3.1 here
+        ruby-version: 3.1  # Or whatever Ruby version you want
 
     - name: Install Dependencies
       run: bundle install
 
-    - name: Build
-      run: bundle exec jekyll build
+    - name: Build Jekyll Site
+      run: bundle exec jekyll build  # This will build the site and output it to ./_site
 
-    - name: Deploy
+    - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        publish_dir: ./_site  # This is the folder that your site has been built to
+        publish_branch: master  # This is the branch you want to deploy to

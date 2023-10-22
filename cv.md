@@ -47,6 +47,6 @@ header:
 
 # INTERESTS
 
-Linguistics (phonetics/phonology), music(saxophone/vocal), social sciences (political science/cultural study)
+Linguistics (phonetics/phonology), music (saxophone/vocal), social sciences (political science/cultural study)
 
-- _Translated 4+ academic political science & cultural study articles into Chinese with 10,000+ total view counts_
+- _Translated 4 academic political science & cultural study articles into Chinese with 10,000+ total view counts_
