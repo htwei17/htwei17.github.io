@@ -20,7 +20,7 @@
 
 locale: "en-US" # Used by the theme to translate dates and format strings.
 
-title: Haotian's Worldline # Your site title
+title: Haotian's World Line # Your site title
 title_separator: "|" # Your site title separator, defaults to "|"
 name: "Haotian Wei" # Your name
 email: weihaotian776@gmail.com
