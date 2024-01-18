@@ -92,7 +92,7 @@
 
   </head>
 
-  <body class="layout--single">
+  <body class="layout--single-math">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -389,7 +389,24 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
 
       <section class="page__content" itemprop="text">
         
-        <p>The quantum measurement, formally acting on a density matrix $\rho$ as
+        <head>
+  <link rel="icon" type="image/png" href="/assets/images/logo.png">
+</head>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<p>The quantum measurement, formally acting on a density matrix $\rho$ as
 \(\rho \rightarrow \sum_{i} M_{i} \rho M_{i}^{\dagger}.\)
 is a special case of quantum operation, where $i$ indices the different outcomes .
 The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%20handled%20simultaneously.-,Kraus%20operators,-Kraus%27%20theorem">Kraus operators</a> $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is preserved:
