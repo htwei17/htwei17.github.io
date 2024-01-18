@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Quantum Resource Theory by the Example of Quantum Entanglement | Haotian’s World Line</title>
+<!-- begin _includes/seo.html --><title>Note on Quantum Resource Theory | Haotian’s World Line</title>
 <meta name="description" content="Quantum Resource Theory as a Framework for Quantum Information Processing">
 
 
@@ -22,7 +22,7 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Haotian's World Line">
-<meta property="og:title" content="Quantum Resource Theory by the Example of Quantum Entanglement">
+<meta property="og:title" content="Note on Quantum Resource Theory">
 <meta property="og:url" content="https://htwei17.github.io/note/2024/01/15/qrt.html">
 
 
@@ -161,7 +161,7 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Quantum Resource Theory by the Example of Quantum Entanglement
+          Note on Quantum Resource Theory
 
         
       </h1>
@@ -375,7 +375,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Quantum Resource Theory by the Example of Quantum Entanglement">
+    <meta itemprop="headline" content="Note on Quantum Resource Theory">
     <meta itemprop="description" content="Quantum Resource Theory as a Framework for Quantum Information Processing">
     <meta itemprop="datePublished" content="2024-01-15T19:16:00+00:00">
     
@@ -404,6 +404,8 @@
 
 <h1 id="quantum-resource-theory-as-a-framework-for-quantum-information-processing">Quantum Resource Theory as a Framework for Quantum Information Processing</h1>
 
+<p>To be added.</p>
+
 <h1 id="quantum-entanglement-in-the-context-of-quantum-resource-theory">Quantum Entanglement in the Context of Quantum Resource Theory</h1>
 
 <p>In this part we illustrate how concepts of quantum resource theory can be applied to the study of quantum entanglement. We will first introduce the concept of local operations and classical communication (LOCC) as the background.</p>
@@ -416,14 +418,19 @@
 
 <p>As the name suggests, LOCC consists of 2 parts: local (quantum) operations and classical communication. It could be a multi-round process, where the local operations and classical communication are performed once each round. WLoG, we assume that A communicates to B.</p>
 
-<p>For the first part, we simplify the scope of ‘‘local’’ operations to <a href="https://www.wikiwand.com/en/Kraus_operator">quantum operations</a> performed on a single part of the multipartite quantum system. They can be pure (unitary evolution) or mixed (<a href="posts/2024-01-16-povm.md">quantum measurement</a>). They can be in general written in the form:
-\(\rho \rightarrow \sum_{i} (M^A_{i}\otimes M^B_{i} \otimes...\otimes M^{A_k}_{i}) \rho (M^A_{i}\otimes M^B_{i} \otimes...\otimes M^{A_k}_{i})^{\dagger},\)
-where $A, B, …, A_i$ labels the parts of the physical system.</p>
+<p>For the first part, we simplify the scope of ‘‘local’’ operations to <a href="https://www.wikiwand.com/en/Kraus_operator">quantum operations</a> performed on a single part of the multipartite quantum system. They can be pure (unitary evolution) or mixed (<a href="posts/2024-01-16-povm.md">quantum measurement</a>). They can be in general written in the form:</p>
 
-<p>While the quantum operations cannot exceed distance limitation, the classical communication is the method to exchange information between the different parts of the quantum system. However, this doesn’t give much modification on the form of outcome of the quantum state, since the communication from e.g. A to B only conditions the quantum operation on B probabilistically. The form of total operation (only consider A and B) is:
-\(\rho \rightarrow \rho'_A = \sum_i M^A_{i} \rho (M^A_{i})^{\dagger} \rightarrow \sum_{j} M^B_{j} (\rho'_A) \rho'_A (M^B_{j} (\rho'_A))^{\dagger},\)
-and this reduces to the same form as above:
-\(\rho \rightarrow \sum_{ij} (M^B_{j,i} \otimes M^A_{i}) \rho [(M^A_{i})^{\dagger} \otimes (M^B_{j,i})^{\dagger}].\)</p>
+\[\rho \rightarrow \sum_{i} (M^A_{i}\otimes M^B_{i} \otimes...\otimes M^{A_k}_{i}) \rho (M^A_{i}\otimes M^B_{i} \otimes...\otimes M^{A_k}_{i})^{\dagger},\]
+
+<p>where $A, B, …, A_i$ labels the parts of the physical system.</p>
+
+<p>While the quantum operations cannot exceed distance limitation, the classical communication is the method to exchange information between the different parts of the quantum system. However, this doesn’t give much modification on the form of outcome of the quantum state, since the communication from e.g. A to B only conditions the quantum operation on B probabilistically. The form of total operation (only consider A and B) is:</p>
+
+\[\rho \rightarrow \rho'_A = \sum_i M^A_{i} \rho (M^A_{i})^{\dagger} \rightarrow \sum_{j} M^B_{j} (\rho'_A) \rho'_A (M^B_{j} (\rho'_A))^{\dagger},\]
+
+<p>and this reduces to the same form as above:</p>
+
+\[\rho \rightarrow \sum_{ij} (M^B_{j,i} \otimes M^A_{i}) \rho [(M^A_{i})^{\dagger} \otimes (M^B_{j,i})^{\dagger}].\]
 
         
       </section>
@@ -445,7 +452,7 @@ and this reduces to the same form as above:
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Quantum+Resource+Theory+by+the+Example+of+Quantum+Entanglement%20https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2024%2F01%2F15%2Fqrt.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Note+on+Quantum+Resource+Theory%20https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2024%2F01%2F15%2Fqrt.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2024%2F01%2F15%2Fqrt.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -515,8 +522,7 @@ and this reduces to the same form as above:
 
 
     <p class="archive__item-excerpt" itemprop="description">The quantum measurement, formally acting on a density matrix $\rho$ as
-\(\rho \rightarrow \sum_{i} M_{i} \rho M_{i}^{\dagger}.\)
-is a special case of quantum...</p>
+</p>
   </article>
 </div>
 
