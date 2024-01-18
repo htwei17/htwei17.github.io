@@ -83,6 +83,7 @@ footer:
 
 # Defaults
 defaults:
+  # all
   - scope:
       path: ""
     values:
@@ -98,6 +99,14 @@ defaults:
         nav: main
         overlay_image: "/assets/images/SUN.png"
         overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      show_tags: true
+      show_categories: true
 
 # Features
 search: true
