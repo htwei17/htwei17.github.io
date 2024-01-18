@@ -1,19 +1,19 @@
 var store = [{
         "title": "My Logo",
         "excerpt":"The site logo is:      The logo is a combination of the following factors:      A clock to tick the proper time   A $\\psi$ symbol to represent the quantum state  ","categories": ["update"],
-        "tags": [],
+        "tags": ["logo"],
         "url": "/update/2023/10/20/logo.html",
         "teaser": "/assets/images/fanjingshan.jpeg"
       },{
         "title": "Note on Quantum Resource Theory",
         "excerpt":"Quantum Resource Theory as a Framework for Quantum Information Processing To be added. Quantum Entanglement in the Context of Quantum Resource Theory In this part we illustrate how concepts of quantum resource theory can be applied to the study of quantum entanglement. We will first introduce the concept of local...","categories": ["note"],
-        "tags": [],
+        "tags": ["quantum","entanglement","resource theory"],
         "url": "/note/2024/01/15/qrt.html",
         "teaser": "/assets/images/fanjingshan.jpeg"
       },{
         "title": "Blitz Note on Quantum Measurement",
-        "excerpt":"The quantum measurement, formally acting on a density matrix $\\rho$ as \\[\\rho \\rightarrow \\sum_{i} M_{i} \\rho M_{i}^{\\dagger}.\\] is a special case of quantum operation, where $i$ indices the different outcomes . The measurement Kraus operators $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is...","categories": ["term"],
-        "tags": [],
-        "url": "/term/2024/01/16/povm.html",
+        "excerpt":"The quantum measurement, formally acting on a density matrix $\\rho$ as \\[\\rho \\rightarrow \\sum_{i} M_{i} \\rho M_{i}^{\\dagger}.\\] is a special case of quantum operation, where $i$ indices the different outcomes . The measurement Kraus operators $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is...","categories": ["note"],
+        "tags": ["quantum","blitz note","POVM"],
+        "url": "/note/2024/01/16/povm.html",
         "teaser": "/assets/images/fanjingshan.jpeg"
       }]
