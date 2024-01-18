@@ -12,8 +12,8 @@ var store = [{
         "teaser": "/assets/images/fanjingshan.jpeg"
       },{
         "title": "Blitz Note on Quantum Measurement",
-        "excerpt":"The quantum measurement, formally acting on a density matrix $\\rho$ as \\[\\rho \\rightarrow \\sum_{i} M_{i} \\rho M_{i}^{\\dagger}.\\] is a special case of quantum operation, where $i$ indices the different outcomes . The measurement Kraus operators $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is...","categories": ["note"],
+        "excerpt":"The quantum measurement, formally acting on a density matrix $\\rho$ as \\[\\rho \\rightarrow \\sum_{i} M_{i} \\rho M_{i}^{\\dagger}.\\] is a special case of quantum operation, where $i$ indices the different outcomes . The measurement Kraus operators $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is...","categories": ["term"],
         "tags": [],
-        "url": "/note/2024/01/16/povm.html",
+        "url": "/term/2024/01/16/povm.html",
         "teaser": "/assets/images/fanjingshan.jpeg"
       }]
