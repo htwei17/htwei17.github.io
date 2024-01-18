@@ -5,7 +5,7 @@ header:
     overlay_image: "/assets/images/guangyun.jpg"
 ---
 
-# EDUCATION
+# Education
 
 - **Rice University, Houston, TX**
   - Expected May 2025  
@@ -22,7 +22,7 @@ header:
 
 ---
 
-# EXPERIENCE
+# Experience
 
 - **Rice University, Houston, TX**
   - Jun 2021 - Present  
@@ -34,7 +34,7 @@ header:
 
 ---
 
-# INTERESTS
+# Interest
 
 Linguistics (phonetics/phonology), music (saxophone/vocal), social sciences (political science/cultural study)
 
