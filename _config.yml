@@ -98,7 +98,7 @@ footer:
       url: "https://scholar.google.com/citations?user=mu--7-UAAAAJ"
     - label: "ORCID"
       icon: "fas fa-fw fa-link"
-      url: "https://orcid.org/my-orcid?orcid=0000-0001-7684-2608"
+      url: "https://orcid.org/0000-0001-7684-2608"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/htwei17"
