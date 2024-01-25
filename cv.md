@@ -8,13 +8,13 @@ header:
 # Education
 
 - **Rice University, Houston, TX**
-  - Expected May 2025  
+  - Expected May 2025
     _Ph.D. in Theoretical Physics - Quantum Science and Engineering_
 
 - **Fudan University, Shanghai, China**
   - Jun 2020  
     _Bachelor of Science in Physics_  
-    **Distinction:** Outstanding Graduate of Class 2020 (top 10%)
+    **Distinction**: Outstanding Graduate of Class 2020
 
 - **UC Berkeley, Berkeley, CA**
   - Aug - Dec 2017  
