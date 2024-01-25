@@ -5,10 +5,12 @@ header:
     overlay_image: "/assets/images/guangyun.jpg"
 ---
 
+<!-- space left on purpose as line break -->
+
 # Education
 
 - **Rice University, Houston, TX**
-  - Expected May 2025
+  - Expected May 2025  
     _Ph.D. in Theoretical Physics - Quantum Science and Engineering_
 
 - **Fudan University, Shanghai, China**
@@ -29,7 +31,7 @@ header:
     _Doctoral Researcher_
 
 - **Fudan University, Shanghai, China**
-  - Sep 2018 – Jun 2020
+  - Sep 2018 – Jun 2020  
     _Research Assistant_
 
 ---
