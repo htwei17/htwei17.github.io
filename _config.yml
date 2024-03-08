@@ -86,7 +86,7 @@ reCaptcha:
   secret: # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 # Styling settings
-teaser: /assets/images/fanjingshan.jpeg
+teaser: /assets/images/fanJingShan.jpg
 logo: /assets/images/logo.png
 masthead_title: Haotian's Wolrd Line
 
