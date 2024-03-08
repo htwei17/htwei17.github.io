@@ -33,7 +33,7 @@ jobs:
       run: bundle exec jekyll build  # This will build the site and output it to ./_site
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3  # Ensure this is the latest version or upgrade if there's a new one
+      uses: peaceiris/actions-gh-pages@v4  # Ensure this is the latest version or upgrade if there's a new one
       with:
         github_token: ${{ secrets.WEBSITE_TOKEN }}  # Use your personal access token
         publish_dir: ./_site  # This is the folder that your site has been built to
