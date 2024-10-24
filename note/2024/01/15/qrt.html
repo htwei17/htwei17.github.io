@@ -1,11 +1,12 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -48,16 +49,7 @@
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Haotian Wei",
-      "url": "https://htwei17.github.io/"
-    
-  }
-</script>
+
 
 
 
@@ -68,19 +60,17 @@
 <!-- end _includes/seo.html -->
 
 
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script>
+<script type="text/javascript">
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
 
 
@@ -101,10 +91,6 @@
   </ul>
 </nav>
 
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-
     
 
 <div class="masthead">
@@ -119,13 +105,29 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/">Self</a>
+              <a
+                href="/"
+                
+                
+              >Self</a>
             </li><li class="masthead__menu-item">
-              <a href="/cv">CV</a>
+              <a
+                href="/cv"
+                
+                
+              >CV</a>
             </li><li class="masthead__menu-item">
-              <a href="/pub">Publications</a>
+              <a
+                href="/pub"
+                
+                
+              >Publications</a>
             </li><li class="masthead__menu-item">
-              <a href="/posts/">Proper Time (Posts)</a>
+              <a
+                href="/posts/"
+                
+                
+              >Proper Time (Posts)</a>
             </li></ul>
         
         <button class="search__toggle" type="button">
@@ -191,11 +193,12 @@
 
 
       
-      
     </div>
   
   
 </div>
+
+
 
 
 
@@ -207,22 +210,22 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
     <div class="author__avatar">
-      
-        <img src="/assets/images/bio.jpg" alt="Haotian Wei" itemprop="image">
-      
+      <a href="https://htwei17.github.io/">
+        <img src="/assets/images/bio.jpg" alt="Haotian Wei" itemprop="image" class="u-photo">
+      </a>
     </div>
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://htwei17.github.io/" itemprop="url">Haotian Wei</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Haotian Wei</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>Many-body and everybody.</p>
 
       </div>
@@ -234,26 +237,26 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Harmonic Trap, Quantum</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Harmonic Trap, Quantum</span>
         </li>
       
 
       
         
           
-            <li><a href="https://scholar.google.com/citations?user=mu--7-UAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+            <li><a href="https://scholar.google.com/citations?user=mu--7-UAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
           
         
           
-            <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7684-2608" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">ORCID</span></a></li>
+            <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7684-2608" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">ORCID</span></a></li>
           
         
           
-            <li><a href="https://twitter.com/htwei17" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/htwei17" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
           
         
           
-            <li><a href="https://github.com/htwei17" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/htwei17" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
       
@@ -308,7 +311,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -325,45 +328,46 @@
       
     
     
-      
-
-<nav class="nav__list">
+      <nav class="nav__list">
   
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">Toggle menu</label>
   <ul class="nav__items">
     
-      <li>
-        
-          <a href="/"><span class="nav__sub-title">Self</span></a>
-        
+      
+      
+        <li>
+          
+            <a href="/"><span class="nav__sub-title">Self</span></a>
+          
 
-        
-      </li>
-    
-      <li>
-        
-          <a href="/cv"><span class="nav__sub-title">CV</span></a>
-        
+          
+        </li>
+      
+        <li>
+          
+            <a href="/cv"><span class="nav__sub-title">CV</span></a>
+          
 
-        
-      </li>
-    
-      <li>
-        
-          <a href="/pub"><span class="nav__sub-title">Publications</span></a>
-        
+          
+        </li>
+      
+        <li>
+          
+            <a href="/pub"><span class="nav__sub-title">Publications</span></a>
+          
 
-        
-      </li>
-    
-      <li>
-        
-          <a href="/posts/"><span class="nav__sub-title">Proper Time (Posts)</span></a>
-        
+          
+        </li>
+      
+        <li>
+          
+            <a href="/posts/"><span class="nav__sub-title">Proper Time (Posts)</span></a>
+          
 
-        
-      </li>
+          
+        </li>
+      
     
   </ul>
 </nav>
@@ -389,7 +393,6 @@
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
               <ul class="toc__menu"><li><a href="#quantum-resource-theory-as-a-framework-for-quantum-information-processing">Quantum Resource Theory as a Framework for Quantum Information Processing</a></li><li><a href="#quantum-entanglement-in-the-context-of-quantum-resource-theory">Quantum Entanglement in the Context of Quantum Resource Theory</a></li></ul>
-
             </nav>
           </aside>
         
@@ -434,11 +437,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/entanglement" class="page__taxonomy-item" rel="tag">entanglement</a><span class="sep">, </span>
+      <a href="/tags/entanglement" class="page__taxonomy-item p-category" rel="tag">entanglement</a><span class="sep">, </span>
     
-      <a href="/tags/quantum" class="page__taxonomy-item" rel="tag">quantum</a><span class="sep">, </span>
+      <a href="/tags/quantum" class="page__taxonomy-item p-category" rel="tag">quantum</a><span class="sep">, </span>
     
-      <a href="/tags/resource-theory" class="page__taxonomy-item" rel="tag">resource theory</a>
+      <a href="/tags/resource-theory" class="page__taxonomy-item p-category" rel="tag">resource theory</a>
     
     </span>
   </p>
@@ -455,7 +458,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/note" class="page__taxonomy-item" rel="tag">note</a>
+      <a href="/categories/note" class="page__taxonomy-item p-category" rel="tag">note</a>
     
     </span>
   </p>
@@ -463,8 +466,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-01-15T19:16:00+00:00">January 15, 2024</time></p>
-
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-15T19:16:00+00:00">January 15, 2024</time></p>
 
       </footer>
 
@@ -477,7 +479,7 @@
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2024%2F01%2F15%2Fqrt.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2024%2F01%2F15%2Fqrt.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://htwei17.github.io/note/2024/01/15/qrt.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -500,11 +502,14 @@
 
   
   
-    <div class="page__related">
-      <h4 class="page__related-title">You may also enjoy</h4>
-      <div class="grid__wrapper">
-        
-          
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
 
 
 
@@ -547,8 +552,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -591,8 +597,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -635,8 +642,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -679,18 +687,20 @@
   </article>
 </div>
 
-        
-      </div>
-    </div>
+    
+  </div>
+</div>
+
   
   
 </div>
 
+      
     </div>
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
     <label class="sr-only" for="search">
       Enter your search term...
     </label>
@@ -736,7 +746,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Haotian Wei. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="https://htwei17.github.io">Haotian's World Line</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -750,7 +760,6 @@
 <script src="/assets/js/lunr/lunr.min.js"></script>
 <script src="/assets/js/lunr/lunr-store.js"></script>
 <script src="/assets/js/lunr/lunr-en.js"></script>
-
 
 
 
