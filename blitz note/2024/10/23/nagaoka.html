@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Blitz Note: Measurement-Induced Phase Transition (MIPT) | Haotian’s World Line</title>
+<!-- begin _includes/seo.html --><title>Blitz Note: Nagaoka ferromagnetism in triangular lattice | Haotian’s World Line</title>
 <meta name="description" content="Haotian’s blogging area">
 
 
@@ -22,8 +22,8 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Haotian's World Line">
-<meta property="og:title" content="Blitz Note: Measurement-Induced Phase Transition (MIPT)">
-<meta property="og:url" content="https://htwei17.github.io/blitz%20note/2024/01/25/mipt.html">
+<meta property="og:title" content="Blitz Note: Nagaoka ferromagnetism in triangular lattice">
+<meta property="og:url" content="https://htwei17.github.io/blitz%20note/2024/10/23/nagaoka.html">
 
 
   <meta property="og:description" content="Haotian’s blogging area">
@@ -36,14 +36,14 @@
 
 
 
-  <meta property="article:published_time" content="2024-01-25T18:20:00+00:00">
+  <meta property="article:published_time" content="2024-10-23T20:10:00+00:00">
 
 
 
 
 
 
-<link rel="canonical" href="https://htwei17.github.io/blitz%20note/2024/01/25/mipt.html">
+<link rel="canonical" href="https://htwei17.github.io/blitz%20note/2024/10/23/nagaoka.html">
 
 
 
@@ -161,7 +161,7 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Blitz Note: Measurement-Induced Phase Transition (MIPT)
+          Blitz Note: Nagaoka ferromagnetism in triangular lattice
 
         
       </h1>
@@ -183,7 +183,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          2 minute read
         
       </span>
     
@@ -375,9 +375,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Blitz Note: Measurement-Induced Phase Transition (MIPT)">
+    <meta itemprop="headline" content="Blitz Note: Nagaoka ferromagnetism in triangular lattice">
     <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="2024-01-25T18:20:00+00:00">
+    <meta itemprop="datePublished" content="2024-10-23T20:10:00+00:00">
     
 
     <div class="page__inner-wrap">
@@ -402,7 +402,45 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<p>Measurement-induced phase transition (MIPT) is a concept in quantum entanglement theory. It refers to the phenomenon where the behavior of a quantum system undergoes a qualitative change due to the act of measurement. This concept is significant in understanding the dynamics of quantum entanglement and has implications for quantum computing and the simulation of quantum systems.</p>
+<p>Recently when studying Nagaoka ferromagnetism (FM), I find a short and helpful <a href="https://junkaidong.github.io/physics/ferromagnetism/">note</a>. In addition to rewrite the original <a href="#references">Tasaki (1989) paper</a>, it provides insightful arguments on the validity and nature of Nagaoka FM. Here I try to reiterate the main concept on the derivation and see how this could be intuitively extended to the triangular lattice, even without rigorous guarantee.</p>
+
+<h2 id="nagaoka-theorem-on-bipartite-lattice">Nagaoka theorem on bipartite lattice</h2>
+
+<p>The main idea of Nagaoka FM is as follows: for a large-$U$ Hubbard model with one hole in the half-filled band, <strong>in the bipartite lattice</strong>, the ground state is a ferromagnetic state.</p>
+
+<p>The proof is realized by a series of clever gauge choice. First, we assume a positive tunneling Hubbard model:
+\(H = \sum_{ij, \sigma} t_{ij} (c_{i\sigma}^\dagger c_{j\sigma} + \text{h.c.}) + U \sum_i n_{i\uparrow} n_{i\downarrow}\)
+where $t_{ij}&gt;0$ and $U\to\infty$. From the origin of Hubbard model, the tunneling amplitude $-t_{ij}$ is negative, because the electrons are in bounded states by the atomic potential, their single-particle energy is negative. However, in the bipartite lattice, by a sign flip of Wannier functions in one sublattice, we can make the tunneling amplitude positive.</p>
+
+<p>The second gauge choice is on the basis states. We label a series of one-hole-in-half-filled states by
+\(|i,\bm{\sigma}\rangle = (-1)^i c^\dagger_{1\sigma_1} c^\dagger_{2\sigma_2} \cdots c^\dagger_{i-1,\sigma_{i-1}} c^\dagger_{i+1,\sigma_{i+1}} \cdots c^\dagger_{N\sigma_N}|0\rangle\)
+where $N$ is the system size, $i$ is the hole position, and $\bm{\sigma}=(\sigma_1,\sigma_2,\cdots)$ is the spin vector. The labeling is not common, as e.g. in ED people usually use the “site-major” indexing, in which $c^\dagger$’s are grouped by spin indices $c^\dagger_{1\uparrow}c^\dagger_{3\uparrow}\cdots c^\dagger_{2\downarrow}c^\dagger_{6\downarrow}\cdots$. But this is the convenient choice if we look into the “hole” picture $c_{\uparrow,\downarrow} \to h^\dagger,\, c^\dagger_{\uparrow,\downarrow} \to h$:
+\(|i,\bm{\sigma}\rangle = h^\dagger_i|N,\bm{\sigma}\rangle\)</p>
+
+<p>By the above particle-hole transformation, we can rewrite the Hamiltonian to the negative tunneling form:
+\(H = - \sum_{ij} t_{ij} (h_{i}^\dagger h_{j} + \text{h.c.}) + \text{const.}\)
+and matrix elements of $H$ is thus clear: $\langle i,\bm{\sigma}|H| j,\bm{\tau}\rangle = -t_{ij} \le 0$.</p>
+
+<p>From this on, we can use inequalities to prove Nagaoka theorem, as is shown in the note.</p>
+
+<h2 id="triangular-lattice">Triangular lattice</h2>
+
+<p>For non-bipartite lattice, the proof is no longer valid, given the non-trivial gauge flux in each triangular loop from the negative tunneling. One could nevertheless use perturbation theory to argue the effective ferromagnetic exchange contribution $\frac{t^2}{U} - \frac{t^3}{V}$ is still present in triangular lattice. Numerical study also supports the existence of FM.</p>
+
+<h2 id="intuition">Intuition</h2>
+
+<p>The idea could be understood by constructive interference of the hole motion through all possible paths in bipartite lattice. In FM background, moving hole leaves behind identical state with the same sign no matter which path it takes, thus the motion is enhanced, and the FM background is favored all over the lattice.</p>
+
+<p>In triangular lattice, the motion is suppressed by the destructive interference in FM. The hole delocalizes, however, if it is surrounded by singlets, as the hole localization is suppressed by a minus sign created by its loop motion (<a href="#references">Lebrat et al. 2024</a>).</p>
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>H. Tasaki, Extension of Nagaoka’s theorem on the large-U Hubbard model (1989). <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.40.9192">Phys. Rev. B 40, 9192</a></li>
+  <li>Junkai Dong, Nagaoka Ferromagnetism (2024). <a href="https://junkaidong.github.io/physics/ferromagnetism/">https://junkaidong.github.io/physics/ferromagnetism/</a></li>
+  <li>T. Hanisch et al., Ferromagnetism in the Hubbard model: instability of the Nagaoka state on the triangular, honeycomb and kagome lattices (1995). <a href="https://arxiv.org/abs/cond-mat/9501116">arXiv:cond-mat/9501116</a></li>
+  <li>M. Lebrat et al., Observation of Nagaoka polarons in a Fermi–Hubbard quantum simulator (2024). <a href="https://www.nature.com/articles/s41586-024-07272-9">Nature 629, 317–322</a></li>
+</ol>
 
         
       </section>
@@ -419,15 +457,13 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/measurement" class="page__taxonomy-item" rel="tag">measurement</a><span class="sep">, </span>
+      <a href="/tags/hubbard-model" class="page__taxonomy-item" rel="tag">hubbard model</a><span class="sep">, </span>
     
-      <a href="/tags/phase-transition" class="page__taxonomy-item" rel="tag">phase transition</a><span class="sep">, </span>
+      <a href="/tags/magnetism" class="page__taxonomy-item" rel="tag">magnetism</a><span class="sep">, </span>
     
       <a href="/tags/quantum" class="page__taxonomy-item" rel="tag">quantum</a><span class="sep">, </span>
     
-      <a href="/tags/quantum-dynamics" class="page__taxonomy-item" rel="tag">quantum dynamics</a><span class="sep">, </span>
-    
-      <a href="/tags/universality" class="page__taxonomy-item" rel="tag">universality</a>
+      <a href="/tags/quantum-dynamics" class="page__taxonomy-item" rel="tag">quantum dynamics</a>
     
     </span>
   </p>
@@ -452,7 +488,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-01-25T18:20:00+00:00">January 25, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-10-23T20:10:00+00:00">October 23, 2024</time></p>
 
 
       </footer>
@@ -462,23 +498,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Blitz+Note%3A+Measurement-Induced+Phase+Transition+%28MIPT%29%20https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F25%2Fmipt.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Blitz+Note%3A+Nagaoka+ferromagnetism+in+triangular+lattice%20https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F10%2F23%2Fnagaoka.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F25%2Fmipt.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F10%2F23%2Fnagaoka.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F25%2Fmipt.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F10%2F23%2Fnagaoka.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/blitz%20note/2024/01/16/locc.html" class="pagination--pager" title="Blitz Note: Local Operations and Classical Communication (LOCC)
+      <a href="/blitz%20note/2024/01/25/mipt.html" class="pagination--pager" title="Blitz Note: Measurement-Induced Phase Transition (MIPT)
 ">Previous</a>
     
     
-      <a href="/blitz%20note/2024/10/23/nagaoka.html" class="pagination--pager" title="Blitz Note: Nagaoka ferromagnetism in triangular lattice
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -506,7 +541,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blitz%20note/2024/10/23/nagaoka.html" rel="permalink">Blitz Note: Nagaoka ferromagnetism in triangular lattice
+        <a href="/blitz%20note/2024/01/25/mipt.html" rel="permalink">Blitz Note: Measurement-Induced Phase Transition (MIPT)
 </a>
       
     </h2>
@@ -524,7 +559,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          2 minute read
+          less than 1 minute read
         
       </span>
     
