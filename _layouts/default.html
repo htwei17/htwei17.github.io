@@ -1,0 +1,7 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const skin = prefersDarkScheme ? "dark" : "default"; // Adjust to your desired skins
+        document.documentElement.setAttribute("data-skin", skin);
+    });
+</script>
