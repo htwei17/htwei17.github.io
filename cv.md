@@ -9,30 +9,31 @@ header:
 
 # Education
 
-- **Rice University, Houston, TX**
+- **Ph.D. in Theoretical Physics**, Rice University, Houston, TX
   - Expected May 2025  
-    _Ph.D. in Theoretical Physics - Quantum Science and Engineering_
+    _Quantum Science and Engineering_
 
-- **Fudan University, Shanghai, China**
+- **M.Sc. in Theoretical Physics**, Rice University, Houston, TX
+  - Dec 2024  
+
+- **B.Sc. in Physics**, Fudan University, Shanghai, China
   - Jun 2020  
-    _Bachelor of Science in Physics_  
     **Distinction**: Outstanding Graduate of Class 2020
 
-- **UC Berkeley, Berkeley, CA**
+- **Visiting Student**, UC Berkeley, Berkeley, CA
   - Aug - Dec 2017  
-    _Visiting Student_
 
 ---
 
 # Experience
 
-- **Rice University, Houston, TX**
+- **Doctoral Researcher**, Rice University, Houston, TX
   - Jun 2021 - Present  
-    _Doctoral Researcher_
+    _Advisor: Dr. Kaden Hazzard_
 
-- **Fudan University, Shanghai, China**
+- **Research Assistant**, Fudan University, Shanghai, China
   - Sep 2018 – Jun 2020  
-    _Research Assistant_
+    _Advisor: Dr. Yang Qi_
 
 ---
 
@@ -41,3 +42,10 @@ header:
 Linguistics (phonetics/phonology), music (saxophone/vocal), social sciences (political science/cultural study)
 
 - _Translated 4 academic political science & cultural study articles into Chinese with 10,000+ total view counts_
+
+# Media Coverage
+
+- [Strobing Light Shapes Atomic Array](https://physics.aps.org/articles/v15/s120)
+- [SU(N) matter is about 3 billion times colder than deep space](https://news.rice.edu/news/2022/sun-matter-about-3-billion-times-colder-deep-space)
+- [A cool quantum simulator](https://www.nature.com/articles/s41567-022-01733-6)
+- [Rice University's Quantum Initiative is Pushing the Boundaries of Quantum Innovation](https://www.youtube.com/watch?v=pggpphpnU60)
