@@ -20,7 +20,7 @@
 
 locale: "en-US" # Used by the theme to translate dates and format strings.
 
-title: Haotian's World Line # Your site title
+title: Haotian # Your site title
 title_separator: "|" # Your site title separator, defaults to "|"
 name: "Haotian Wei" # Your name
 email: weihaotian776@gmail.com
@@ -62,7 +62,7 @@ author:
 markdown: kramdown
 theme: minimal-mistakes-jekyll # You can change this if you're using a different theme
 # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "default"
 comments:
   provider: "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
