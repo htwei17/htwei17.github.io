@@ -424,25 +424,17 @@
 
 <p>The second gauge choice is on the basis states. We label a series of one-hole-in-half-filled states by</p>
 
-\[|i,\boldsymbol{\sigma}\rangle = (-1)^i c^\dagger_{1\sigma_1} c^\dagger_{2\sigma_2} \cdots c^\dagger_{i-1,\sigma_{i-1}} c^\dagger_{i+1,\sigma_{i+1}} \cdots c^\dagger_{N\sigma_N}|0\rangle\]
+\[|i,\boldsymbol{\sigma}\rangle = (-1)^i c^\dagger_{1\sigma_1} c^\dagger_{2\sigma_2} \cdots c^\dagger_{i-1,\sigma_{i-1}} c^\dagger_{i+1,\sigma_{i+1}} \cdots c^\dagger_{N\sigma_N} \vert 0\rangle\]
 
 <p>where $N$ is the system size, $i$ is the hole position, and $\boldsymbol{\sigma}=(\sigma_1,\sigma_2,\cdots)$ is the spin vector. The labeling is not common, as e.g. in ED people usually use the “site-major” indexing, in which $c^\dagger$’s are grouped by spin indices $c^\dagger_{1\uparrow}c^\dagger_{3\uparrow}\cdots c^\dagger_{2\downarrow}c^\dagger_{6\downarrow}\cdots$. But this is the convenient choice if we look into the “hole” picture $c_{\uparrow,\downarrow} \to h^\dagger,\, c^\dagger_{\uparrow,\downarrow} \to h$:</p>
 
-\[|i,\boldsymbol{\sigma}\rangle = h^\dagger_i|N,\boldsymbol{\sigma}\rangle\]
+\[\vert i,\boldsymbol{\sigma}\rangle = h^\dagger_i \vert N,\boldsymbol{\sigma}\rangle\]
 
 <p>By the above particle-hole transformation, we can rewrite the Hamiltonian to the negative tunneling form:</p>
 
 \[H = - \sum_{ij} t_{ij} (h_{i}^\dagger h_{j} + \text{h.c.}) + \text{const.}\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>and matrix elements of $H$ is thus clear: $\langle i,\boldsymbol{\sigma}</td>
-      <td>H</td>
-      <td>j,\boldsymbol{\tau}\rangle = -t_{ij} \le 0$.</td>
-    </tr>
-  </tbody>
-</table>
+<p>and matrix elements of $H$ is thus clear: $\langle i,\boldsymbol{\sigma} \vert H \vert j,\boldsymbol{\tau}\rangle = -t_{ij} \le 0$.</p>
 
 <p>From this on, we can use inequalities to prove Nagaoka theorem, as is shown in the note.</p>
 
