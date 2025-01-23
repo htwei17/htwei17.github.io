@@ -7,7 +7,9 @@ header:
 
 <!-- space left on purpose as line break -->
 
-# Education
+<embed src="/assets/files/CV-HaotianWei.pdf" width="100%" height="130%" type="application/pdf">
+
+<!-- # Education
 
 - **Ph.D. in Theoretical Physics**, Rice University, Houston, TX
   - Expected May 2025  
@@ -41,7 +43,9 @@ header:
 
 Linguistics (phonetics/phonology), music (saxophone/vocal), social sciences (political science/cultural study)
 
-- _Translated 4 academic political science & cultural study articles into Chinese with 10,000+ total view counts_
+- _Translated 4 academic political science & cultural study articles into Chinese with 10,000+ total view counts_ -->
+
+---
 
 # Media Coverage
 
