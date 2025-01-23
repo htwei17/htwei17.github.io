@@ -7,7 +7,7 @@ header:
 
 <!-- space left on purpose as line break -->
 
-<embed src="/assets/files/CV-HaotianWei.pdf" width="100%" height="130%" type="application/pdf">
+<embed src="/assets/files/CV-HaotianWei.pdf#view=FitH" width="100%" height="130%" type="application/pdf">
 
 <!-- # Education
 
