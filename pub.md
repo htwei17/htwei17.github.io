@@ -6,16 +6,16 @@ header:
 
 ---
 
-# Preprints
+<!-- # Preprints
 
-1. D Kim, S Dasgupta, X Ma, J-M Park, **H-T Wei**, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,  
-   _Observation of the Magnonic Dicke Superradiant Phase Transition_  
-   [arXiv:2401.01873](https://arxiv.org/abs/2401.01873)
 
----
+--- -->
 
 # Publications
 
+1. D Kim, S Dasgupta, X Ma, J-M Park, **H-T Wei**, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,  
+   _Observation of the magnonic Dicke superradiant phase transition_  
+   [Science Advances 11, adt1691 (2025)](https://www.science.org/doi/10.1126/sciadv.adt1691) [[**In the News**]](https://www.earth.com/news/quantum-phase-superradiant-phase-transition-srpt-observed-in-lab/)
 2. **H-T Wei**, E Ibarra-García-Padilla, ML Wall, KRA Hazzard,  
    _Hubbard parameters for programmable tweezer arrays_  
    [Physical Review A 109, 013318 (2024)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.013318) [**Editors' Suggestion**]
