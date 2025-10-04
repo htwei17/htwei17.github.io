@@ -96,8 +96,8 @@ reCaptcha:
 
 # Styling settings
 teaser: /assets/images/fanJingShan.jpg
-logo: /assets/images/logo.png
-masthead_title: Haotian's World Line
+# logo: /assets/images/logo.png
+masthead_title: Haotian Wei
 
 # Footer links
 footer:
