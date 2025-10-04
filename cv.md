@@ -47,7 +47,7 @@ Linguistics (phonetics/phonology), music (saxophone/vocal), social sciences (pol
 
 ---
 
-# Media Coverage
+# Selected Media Coverage
 
 - [Strobing Light Shapes Atomic Array](https://physics.aps.org/articles/v15/s120)
 - [SU(N) matter is about 3 billion times colder than deep space](https://news.rice.edu/news/2022/sun-matter-about-3-billion-times-colder-deep-space)

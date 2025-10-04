@@ -6,7 +6,8 @@ main:
     url: /cv
   - title: "Publications"
     url: /pub
-  - title: "Proper Time (Posts)"
+  # - title: "Proper Time (Posts)"
+  - title: "Posts"
     url: /posts/
   # - title: "Sitemap"
   #   url: /sitemap/
