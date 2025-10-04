@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://htwei17.github.io/update/2023/10/20/logo.html</loc>
-<lastmod>2023-10-20T17:34:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://htwei17.github.io/note/2024/01/15/qrt.html</loc>
 <lastmod>2024-01-15T19:16:00+00:00</lastmod>
 </url>
@@ -37,7 +33,7 @@
 <loc>https://htwei17.github.io/pub</loc>
 </url>
 <url>
-<loc>https://htwei17.github.io/assets/files/CV-HaotianWei.pdf</loc>
-<lastmod>2025-07-05T03:06:35+00:00</lastmod>
+<loc>https://htwei17.github.io/assets/files/CV-HaotianWei-public.pdf</loc>
+<lastmod>2025-10-04T16:02:40+00:00</lastmod>
 </url>
 </urlset>

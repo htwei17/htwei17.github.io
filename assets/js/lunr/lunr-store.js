@@ -1,10 +1,4 @@
 var store = [{
-        "title": "My Logo",
-        "excerpt":"The site logo is:      The logo is a combination of the following factors:      A clock to tick the proper time   A $\\psi$ symbol to represent the quantum state  ","categories": ["update"],
-        "tags": ["logo"],
-        "url": "/update/2023/10/20/logo.html",
-        "teaser": "/assets/images/sunOnTheArc.jpg"
-      },{
         "title": "Note: Quantum Resource Theory",
         "excerpt":" Quantum Resource Theory as a Framework for Quantum Information Processing   To be added.   Quantum Entanglement in the Context of Quantum Resource Theory   In this part we illustrate how concepts of quantum resource theory can be applied to the study of quantum entanglement. In this part, we will assume that we have a multipartite quantum system, which is a quantum system composed of multiple parts. For example, a quantum system composed of 2 qubits is a multipartite quantum system. We label A, B, C, … to the parts of the multipartite quantum system.  ","categories": ["note"],
         "tags": ["quantum","entanglement","resource theory"],
