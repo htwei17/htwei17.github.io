@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Blitz Note: Quantum Measurement | Haotian</title>
-<meta name="description" content="POVM and Kraus Operators">
+<!-- begin _includes/seo.html --><title>Note: Making a Hubbard model | Haotian</title>
+<meta name="description" content="Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array">
 
 
   <meta name="author" content="Haotian Wei">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Haotian">
-<meta property="og:title" content="Blitz Note: Quantum Measurement">
-<meta property="og:url" content="https://htwei17.github.io/blitz%20note/2024/01/16/povm.html">
+<meta property="og:title" content="Note: Making a Hubbard model">
+<meta property="og:url" content="https://htwei17.github.io/note/2025/10/08/hubbard.html">
 
 
-  <meta property="og:description" content="POVM and Kraus Operators">
+  <meta property="og:description" content="Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array">
 
 
 
@@ -37,14 +37,14 @@
 
 
 
-  <meta property="article:published_time" content="2024-01-16T19:33:00+00:00">
+  <meta property="article:published_time" content="2025-10-08T21:02:17+00:00">
 
 
 
 
 
 
-<link rel="canonical" href="https://htwei17.github.io/blitz%20note/2024/01/16/povm.html">
+<link rel="canonical" href="https://htwei17.github.io/note/2025/10/08/hubbard.html">
 
 
 
@@ -161,12 +161,12 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Blitz Note: Quantum Measurement
+          Note: Making a Hubbard model
 
         
       </h1>
       
-        <p class="page__lead">POVM and Kraus Operators
+        <p class="page__lead">Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array
 </p>
       
       
@@ -381,9 +381,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Blitz Note: Quantum Measurement">
-    <meta itemprop="description" content="POVM and Kraus Operators">
-    <meta itemprop="datePublished" content="2024-01-16T19:33:00+00:00">
+    <meta itemprop="headline" content="Note: Making a Hubbard model">
+    <meta itemprop="description" content="Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array">
+    <meta itemprop="datePublished" content="2025-10-08T21:02:17+00:00">
     
 
     <div class="page__inner-wrap">
@@ -408,16 +408,10 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<p>The quantum measurement, formally acting on a density matrix $\rho$ as</p>
+<p>This is a note I made before I published the paper on Hubbard model parameters for tunnel-coupled tweezer arrays. The note is not as polished as the paper, but it contains more useful details and discussion which I believe are insightful.</p>
 
-\[\rho \rightarrow \sum_{i} M_{i} \rho M_{i}^{\dagger}.\]
+<embed src="/assets/files/FermiHubbard.pdf#view=FitH" width="100%" height="130%" type="application/pdf" />
 
-<p>is a special case of quantum operation, where $i$ indices the different outcomes .
-The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%20handled%20simultaneously.-,Kraus%20operators,-Kraus%27%20theorem">Kraus operators</a> $M_{i}$ are completely positive and satisfy condition s.t. the trace of the density matrix is preserved:</p>
-
-\[\sum_{i} M_{i}^{\dagger} M_{i} = I.\]
-
-<p>Intuitively, the measurement is a process that transforms a quantum state to a mixed state. $i$ indices the different outcomes, so that the quantum state collapses stochastically into states given by each process operator $M_i$. The measurement operators are also called POVMs (positive operator-valued measures).</p>
 
         
       </section>
@@ -434,11 +428,13 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/measurement" class="page__taxonomy-item p-category" rel="tag">measurement</a><span class="sep">, </span>
+      <a href="/tags/hubbard-model" class="page__taxonomy-item p-category" rel="tag">hubbard model</a><span class="sep">, </span>
     
-      <a href="/tags/povm" class="page__taxonomy-item p-category" rel="tag">POVM</a><span class="sep">, </span>
+      <a href="/tags/magnetism" class="page__taxonomy-item p-category" rel="tag">magnetism</a><span class="sep">, </span>
     
-      <a href="/tags/quantum" class="page__taxonomy-item p-category" rel="tag">quantum</a>
+      <a href="/tags/quantum" class="page__taxonomy-item p-category" rel="tag">quantum</a><span class="sep">, </span>
+    
+      <a href="/tags/quantum-many-body-theory" class="page__taxonomy-item p-category" rel="tag">quantum many-body theory</a>
     
     </span>
   </p>
@@ -455,7 +451,7 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/blitz-note" class="page__taxonomy-item p-category" rel="tag">blitz note</a>
+      <a href="/categories/note" class="page__taxonomy-item p-category" rel="tag">note</a>
     
     </span>
   </p>
@@ -463,7 +459,7 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-16T19:33:00+00:00">January 16, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-10-08T21:02:17+00:00">October 8, 2025</time></p>
 
       </footer>
 
@@ -472,23 +468,22 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Blitz+Note%3A+Quantum+Measurement%20https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F16%2Fpovm.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Note%3A+Making+a+Hubbard+model%20https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2025%2F10%2F08%2Fhubbard.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F16%2Fpovm.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fnote%2F2025%2F10%2F08%2Fhubbard.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://htwei17.github.io/blitz%20note/2024/01/16/povm.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://htwei17.github.io/note/2025/10/08/hubbard.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/note/2024/01/15/qrt.html" class="pagination--pager" title="Note: Quantum Resource Theory
+      <a href="/blitz%20note/2024/10/23/nagaoka.html" class="pagination--pager" title="Blitz Note: Nagaoka ferromagnetism in triangular lattice
 ">Previous</a>
     
     
-      <a href="/blitz%20note/2024/01/16/locc.html" class="pagination--pager" title="Blitz Note: Local Operations and Classical Communication (LOCC)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -504,51 +499,6 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
   
   <h2 class="page__related-title">You may also enjoy</h2>
   <div class="grid__wrapper">
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/fanJingShan.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/note/2025/10/08/hubbard.html" rel="permalink">Note: Making a Hubbard model
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array
-</p>
-  </article>
-</div>
-
     
       
       
@@ -680,6 +630,51 @@ The measurement <a href="https://www.wikiwand.com/en/Kraus_operator#:~:text=be%2
 
 
     <p class="archive__item-excerpt" itemprop="description">Effect of classical communication on quantum operations
+</p>
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/fanJingShan.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blitz%20note/2024/01/16/povm.html" rel="permalink">Blitz Note: Quantum Measurement
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">POVM and Kraus Operators
 </p>
   </article>
 </div>
