@@ -45,6 +45,9 @@ author:
     # Social links, find icons in https://fontawesome.com/icons?d=gallery
     # fab = Font Awesome Brands, fas = Font Awesome Solid
     # fa-fw = Font Awesome Font Weight``
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:htwei@rice.edu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/htwei17"
