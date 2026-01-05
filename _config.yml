@@ -47,7 +47,7 @@ author:
     # fa-fw = Font Awesome Font Weight``
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:htwei@rice.edu"
+      url: "mailto:weihaotian776@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/htwei17"
