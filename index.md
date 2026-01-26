@@ -3,10 +3,10 @@ title: "About Self"
 permalink: /
 ---
 
-I am a Ph.D. candidate in [Dr. Kaden Hazzard](https://kaden.rice.edu/)'s group in [Department of Physics & Astronomy](https://physics.rice.edu/) at Rice University in Houston, Texas. Prior to embarking on this academic journey, I completed my B.Sc. in Physics from Fudan University in Shanghai, China. 
+I am a Ph.D. candidate in [Prof. Kaden Hazzard](https://kaden.rice.edu/)'s group in [Department of Physics & Astronomy](https://physics.rice.edu/) at Rice University in Houston, Texas. Prior to embarking on this academic journey, I completed my B.Sc. in Physics from Fudan University in Shanghai, China.
 
-My research explores the intersection of quantum many-body theory and engineering/algorithms of quantum simulators, with a particular focus on ultracold fermionic atoms. Believing that deep physical insight yields genuinely profound applications, I am committed to the advancement of efficient fermionic quantum simulation designs, as well as the fundamental quantum physics insight behind its effectiveness. Additionally, I have been working on the engineering of programmable fermionic quantum simulators and understanding the physics of $SU(N>2)$ Fermi-Hubbard models. My work also extends to the study of equilibrium and non-equilibrium properties in quantum spin systems, exploring its interplay with bosonic degrees of freedom and geometric frustration. 
+My research explores the intersection of understanding quantum many-body dynamics and designing quantum simulators, with a particular focus on programmable neutral-atom platforms such as optical tweezer arrays and lattices. Driven by the belief that deep physical insight leads to profound application, I am committed to enhancing the efficiency and robustness of quantum simulation protocols while revealing the underlying fundamental physics. My work also investigates the thermodynamics and dynamics of  $SU(N>2)$ Fermi-Hubbard physics and quantum spin systems emerging from strongly correlated matter. Specifically, I explore the role of non-local or geometrically frustrated couplings in these systems.
 
-Outside my academic pursuits, I have a diverse range of interests that span linguistics, focusing on phonetics and phonology; music, where I play the saxophone and sing.
+Outside my academic pursuits, I have a diverse range of interests that span linguistics and music.
 
 [Click here to read more about me](/cv)
