@@ -394,6 +394,41 @@
         
         <head>
   <link rel="icon" type="image/png" href="/assets/images/logo.png">
+
+  <style>
+    /* 1. Wrapper Class 
+      This sets up the counter. We use a CSS variable (--start-val) 
+      so you can define the number in your Markdown. 
+      Default fallback is 0.
+    */
+    .reversed-list {
+      counter-reset: reversed-counter var(--start-val, 0);
+    }
+
+    /* 2. Reset the <ol> styling */
+    .reversed-list ol {
+      list-style-type: none; /* Turn off default numbers */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 3. Style the list items */
+    .reversed-list li {
+      counter-increment: reversed-counter -1; /* Subtract 1 per item */
+      position: relative;
+      padding-left: 2em; /* Space for the number */
+      margin-bottom: 0.5em;
+    }
+
+    /* 4. Generate the number */
+    .reversed-list li::before {
+      content: counter(reversed-counter) "."; /* Display the number */
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      /* Optional: Add color: #555; here */
+    }
+  </style>
 </head>
 
 <script>
@@ -409,36 +444,40 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<h1 id="preprints">Preprints</h1>
+<div class="reversed-list" style="--start-val: 8;">
 
-<ol>
-  <li>Z Li, R De, R Sivakumar, W Huie, <strong>H-T Wei</strong>, JD Piel, CH Greene, KRA Hazzard, ZZ Yan, JP Covey. <em>Quantum science with arrays of metastable helium-3 atoms</em> <a href="https://arxiv.org/abs/2601.06763">arXiv:2601.06763 (2026)</a></li>
-</ol>
+  <h1 id="preprints">Preprints</h1>
 
-<hr />
+  <ol>
+    <li>Z Li, R De, R Sivakumar, W Huie, <strong>H-T Wei</strong>, JD Piel, CH Greene, KRA Hazzard, ZZ Yan, JP Covey. <em>Quantum science with arrays of metastable helium-3 atoms</em> <a href="https://arxiv.org/abs/2601.06763">arXiv:2601.06763 (2026)</a></li>
+  </ol>
 
-<h1 id="publications">Publications</h1>
+  <hr />
 
-<ol>
-  <li>D Kim, S Dasgupta, X Ma, J-M Park, <strong>H-T Wei</strong>, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,<br />
+  <h1 id="publications">Publications</h1>
+
+  <ol>
+    <li>D Kim, S Dasgupta, X Ma, J-M Park, <strong>H-T Wei</strong>, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,<br />
 <em>Observation of the magnonic Dicke superradiant phase transition</em><br />
 <a href="https://www.science.org/doi/10.1126/sciadv.adt1691">Science Advances 11, eadt1691 (2025)</a> <a href="https://www.earth.com/news/quantum-phase-superradiant-phase-transition-srpt-observed-in-lab/">[<strong>In the News</strong>]</a></li>
-  <li><strong>H-T Wei</strong>, E Ibarra-García-Padilla, ML Wall, KRA Hazzard,<br />
+    <li><strong>H-T Wei</strong>, E Ibarra-García-Padilla, ML Wall, KRA Hazzard,<br />
 <em>Hubbard parameters for programmable tweezer arrays</em><br />
 <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.013318">Physical Review A 109, 013318 (2024)</a> [<strong>Editors’ Suggestion</strong>]</li>
-  <li>S Taie, E Ibarra-García-Padilla, N Nishizawa, Y Takasu, Y Kuno, <strong>H-T Wei</strong>, RT Scalettar, KRA Hazzard, Y Takahashi,<br />
+    <li>S Taie, E Ibarra-García-Padilla, N Nishizawa, Y Takasu, Y Kuno, <strong>H-T Wei</strong>, RT Scalettar, KRA Hazzard, Y Takahashi,<br />
 <em>Observation of antiferromagnetic correlations in an ultracold SU(N) Hubbard model</em><br />
 <a href="https://www.nature.com/articles/s41567-022-01725-6">Nature Physics 18.1356–61 (2022)</a> <a href="https://www.nature.com/articles/s41567-022-01733-6">[<strong>In the News</strong>]</a></li>
-  <li>ZZ Yan, BM Spar, ML Prichard, S Chi, <strong>H-T Wei</strong>, E Ibarra-García-Padilla, KRA Hazzard, WS Bakr,<br />
+    <li>ZZ Yan, BM Spar, ML Prichard, S Chi, <strong>H-T Wei</strong>, E Ibarra-García-Padilla, KRA Hazzard, WS Bakr,<br />
 <em>Two-Dimensional Programmable Tweezer Arrays of Fermions</em><br />
 <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.123201">Physical Review Letters 129.123201 (2022)</a> <a href="https://physics.aps.org/articles/v15/s120">[<strong>In the News</strong>]</a> [<strong>Editors’ Suggestion</strong>]</li>
-  <li>E Ibarra-García-Padilla, S Dasgupta, <strong>H-T Wei</strong>, S Taie, Y Takahashi, RT Scalettar, KRA Hazzard,<br />
+    <li>E Ibarra-García-Padilla, S Dasgupta, <strong>H-T Wei</strong>, S Taie, Y Takahashi, RT Scalettar, KRA Hazzard,<br />
 <em>Universal thermodynamics of an SU⁡(𝑁) Fermi-Hubbard model</em><br />
 <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.043316">Physical Review A 104.043316 (2021)</a> [<strong>Editors’ Suggestion</strong>]</li>
-  <li>YD Liao, H Li, Z Yan, <strong>H-T Wei</strong>, W Li, Y Qi, ZY Meng,<br />
+    <li>YD Liao, H Li, Z Yan, <strong>H-T Wei</strong>, W Li, Y Qi, ZY Meng,<br />
 <em>Phase diagram of the quantum Ising model on a triangular lattice under external field</em><br />
 <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416">Physical Review B 103.104416 (2021)</a></li>
-</ol>
+  </ol>
+
+</div>
 
         
       </section>
