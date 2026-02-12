@@ -4,6 +4,41 @@ layout: single
 
 <head>
   <link rel="icon" type="image/png" href="/assets/images/logo.png">
+
+  <style>
+    /* 1. Wrapper Class 
+      This sets up the counter. We use a CSS variable (--start-val) 
+      so you can define the number in your Markdown. 
+      Default fallback is 0.
+    */
+    .reversed-list {
+      counter-reset: reversed-counter var(--start-val, 0);
+    }
+
+    /* 2. Reset the <ol> styling */
+    .reversed-list ol {
+      list-style-type: none; /* Turn off default numbers */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* 3. Style the list items */
+    .reversed-list li {
+      counter-increment: reversed-counter -1; /* Subtract 1 per item */
+      position: relative;
+      padding-left: 2em; /* Space for the number */
+      margin-bottom: 0.5em;
+    }
+
+    /* 4. Generate the number */
+    .reversed-list li::before {
+      content: counter(reversed-counter) "."; /* Display the number */
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      /* Optional: Add color: #555; here */
+    }
+  </style>
 </head>
 
 <script>

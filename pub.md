@@ -6,6 +6,8 @@ header:
 
 ---
 
+<div class="reversed-list" style="--start-val: 8;" markdown="1">
+
 # Preprints
 
 1. Z Li, R De, R Sivakumar, W Huie, **H-T Wei**, JD Piel, CH Greene, KRA Hazzard, ZZ Yan, JP Covey. _Quantum science with arrays of metastable helium-3 atoms_ [arXiv:2601.06763 (2026)](https://arxiv.org/abs/2601.06763)
@@ -32,3 +34,5 @@ header:
 6. YD Liao, H Li, Z Yan, **H-T Wei**, W Li, Y Qi, ZY Meng,  
    _Phase diagram of the quantum Ising model on a triangular lattice under external field_  
    [Physical Review B 103.104416 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416)
+
+</div>
