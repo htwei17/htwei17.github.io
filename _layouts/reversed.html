@@ -1,0 +1,56 @@
+---
+layout: single
+---
+
+<style>
+  /* 1. Initialize the counter */
+  .reversed-container {
+    /* We add 1 to the user's number so the count starts correctly */
+    counter-reset: rev-counter {{ page.start_count | default: 0 | plus: 1 }};
+  }
+
+  /* 2. Hide default list numbers */
+  .reversed-container ol {
+    list-style: none !important;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /* 3. Style the list items to show our custom counter */
+  .reversed-container ol li {
+    counter-increment: rev-counter -1; /* Decrement by 1 */
+    position: relative;
+    padding-left: 2.5em; /* Space for the number */
+    margin-bottom: 0.5em;
+  }
+
+  /* 4. The fake number */
+  .reversed-container ol li::before {
+    content: counter(rev-counter) ".";
+    position: absolute;
+    left: 0.5em; /* Adjust horizontal position */
+    font-weight: bold;
+    color: #444; /* Optional: adjust color */
+  }
+</style>
+
+<head>
+  <link rel="icon" type="image/png" href="/assets/images/logo.png">
+</head>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<div class="reversed-container">
+  {{ content }}
+</div>

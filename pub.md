@@ -1,12 +1,12 @@
 ---
 title: "Plublications"
 permalink: /pub
+layout: reversed       # 1. Use the new layout
+start_count: 7         # 2. Set the total number of items
 header:
     overlay_image: "/assets/images/guangyun.jpg"
 
 ---
-
-<div class="reversed-list" style="--start-val: 8;" markdown="1">
 
 # Preprints
 
@@ -34,5 +34,3 @@ header:
 6. YD Liao, H Li, Z Yan, **H-T Wei**, W Li, Y Qi, ZY Meng,  
    _Phase diagram of the quantum Ising model on a triangular lattice under external field_  
    [Physical Review B 103.104416 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416)
-
-</div>
