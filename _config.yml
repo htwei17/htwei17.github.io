@@ -23,7 +23,7 @@ locale: "en-US" # Used by the theme to translate dates and format strings.
 title: Haotian # Your site title
 title_separator: "|" # Your site title separator, defaults to "|"
 name: "Haotian Wei" # Your name
-email: weihaotian776@gmail.com
+email: htwei1917@gmail.com
 description: Haotian's blogging area
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
@@ -47,7 +47,7 @@ author:
     # fa-fw = Font Awesome Font Weight``
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:weihaotian776@gmail.com"
+      url: "mailto:htwei1917@gmail.com"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=mu--7-UAAAAJ"
