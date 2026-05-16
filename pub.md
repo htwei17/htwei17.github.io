@@ -16,7 +16,7 @@ header:
 # Publications
 
 1. Z Li, R De, R Sivakumar, W Huie, **H-T Wei**, JD Piel, CH Greene, KRA Hazzard, ZZ Yan, JP Covey,  
-   _Quantum science with arrays of metastable helium-3 atoms_ 
+   _Quantum science with arrays of metastable helium-3 atoms_  
    [arXiv:2601.06763 (2026)](https://arxiv.org/abs/2601.06763) [**PRX Quantum Accepted**]
 2. D Kim, S Dasgupta, X Ma, J-M Park, **H-T Wei**, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,  
    _Observation of the magnonic Dicke superradiant phase transition_  
