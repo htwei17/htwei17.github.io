@@ -8,10 +8,13 @@ header:
 
 ---
 
-<!-- # Preprints
+# Preprints
 
+1. **H-T Wei**, KRA Hazzard,  
+   _A universal and efficient hybrid digital-analog fermionic quantum simulator_  
+   [arXiv:2606.05517 (2026)](https://arxiv.org/abs/2606.05517) 
 
---- -->
+---
 
 # Publications
 
