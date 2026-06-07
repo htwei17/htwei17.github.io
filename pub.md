@@ -2,7 +2,7 @@
 title: "Plublications"
 permalink: /pub
 layout: reversed       # 1. Use the new layout
-start_count: 7         # 2. Set the total number of items
+start_count: 8         # 2. Set the total number of items
 header:
     overlay_image: "/assets/images/guangyun.jpg"
 
