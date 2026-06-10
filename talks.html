@@ -10,41 +10,37 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Blitz Note: Measurement-Induced Phase Transition (MIPT) | Haotian</title>
+<!-- begin _includes/seo.html --><title>Presentations | Haotian</title>
 <meta name="description" content="Haotian’s blogging area">
 
 
   <meta name="author" content="Haotian Wei">
   
-  <meta property="article:author" content="Haotian Wei">
-  
 
 
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Haotian">
-<meta property="og:title" content="Blitz Note: Measurement-Induced Phase Transition (MIPT)">
-<meta property="og:url" content="https://htwei17.github.io/blitz%20note/2024/01/25/mipt.html">
+<meta property="og:title" content="Presentations">
+<meta property="og:url" content="https://htwei17.github.io/talks">
 
 
   <meta property="og:description" content="Haotian’s blogging area">
 
 
 
-  <meta property="og:image" content="https://htwei17.github.io/assets/images/SUN.png">
-
-
-
-
-
-  <meta property="article:published_time" content="2024-01-25T18:20:00+00:00">
+  <meta property="og:image" content="https://htwei17.github.io/assets/images/sunOnTheArc.jpg">
 
 
 
 
 
 
-<link rel="canonical" href="https://htwei17.github.io/blitz%20note/2024/01/25/mipt.html">
+
+
+
+
+<link rel="canonical" href="https://htwei17.github.io/talks">
 
 
 
@@ -82,7 +78,7 @@
 
   </head>
 
-  <body class="layout--single-math">
+  <body class="layout--reversed">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -161,19 +157,16 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/SUN.png');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/sunOnTheArc.jpg');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Blitz Note: Measurement-Induced Phase Transition (MIPT)
+          Presentations
 
         
       </h1>
-      
-        <p class="page__lead">
-</p>
       
       
 
@@ -403,9 +396,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Blitz Note: Measurement-Induced Phase Transition (MIPT)">
-    <meta itemprop="description" content="">
-    <meta itemprop="datePublished" content="2024-01-25T18:20:00+00:00">
+    <meta itemprop="headline" content="Presentations">
+    
+    
     
 
     <div class="page__inner-wrap">
@@ -430,57 +423,77 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<p>Measurement-induced phase transition (MIPT) is a concept in quantum entanglement theory. It refers to the phenomenon where the behavior of a quantum system undergoes a qualitative change due to the act of measurement. This concept is significant in understanding the dynamics of quantum entanglement and has implications for quantum computing and the simulation of quantum systems.</p>
+<style>
+  /* 1. Initialize the counter */
+  .reversed-container {
+    /* We add 1 to the user's number so the count starts correctly */
+    counter-reset: rev-counter 4;
+  }
 
+  /* 2. Hide default list numbers */
+  .reversed-container ol {
+    list-style: none !important;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  /* 3. Style the list items to show our custom counter */
+  .reversed-container ol li {
+    counter-increment: rev-counter -1; /* Decrement by 1 */
+    position: relative;
+    padding-left: 2.5em; /* Space for the number */
+    margin-bottom: 0.5em;
+  }
+
+  /* 4. The fake number */
+  .reversed-container ol li::before {
+    content: counter(rev-counter) ".";
+    position: absolute;
+    left: 0.5em; /* Adjust horizontal position */
+    font-weight: bold;
+    color: #444; /* Optional: adjust color */
+  }
+</style>
+
+<div class="reversed-container">
+  <h1 id="invited-talks">Invited Talks</h1>
+
+<ol>
+  <li>
+    <p>IFF-CSIC, 2026<br />
+<em>A universal and efficient hybrid analog-digital fermionic quantum simulator</em></p>
+  </li>
+  <li>
+    <p>Virginia Tech, 2026<br />
+<em>A universal and efficient hybrid analog-digital fermionic quantum simulator</em></p>
+  </li>
+  <li>
+    <p>University of Rochester, 2026<br />
+<em>A universal and efficient hybrid analog-digital fermionic quantum simulator</em></p>
+  </li>
+</ol>
+
+<hr />
+
+<h1 id="selected-media-coverage">Selected Media Coverage</h1>
+
+<ul>
+  <li><a href="https://physics.aps.org/articles/v15/s120">Strobing Light Shapes Atomic Array</a></li>
+  <li><a href="https://news.rice.edu/news/2022/sun-matter-about-3-billion-times-colder-deep-space">SU(N) matter is about 3 billion times colder than deep space</a></li>
+  <li><a href="https://www.nature.com/articles/s41567-022-01733-6">A cool quantum simulator</a></li>
+  <li><a href="https://www.youtube.com/watch?v=pggpphpnU60">Rice University’s Quantum Initiative is Pushing the Boundaries of Quantum Innovation</a></li>
+</ul>
+
+</div>
         
       </section>
 
       <footer class="page__meta">
         
         
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/tags/measurement" class="page__taxonomy-item p-category" rel="tag">measurement</a><span class="sep">, </span>
-    
-      <a href="/tags/phase-transition" class="page__taxonomy-item p-category" rel="tag">phase transition</a><span class="sep">, </span>
-    
-      <a href="/tags/quantum" class="page__taxonomy-item p-category" rel="tag">quantum</a><span class="sep">, </span>
-    
-      <a href="/tags/quantum-dynamics" class="page__taxonomy-item p-category" rel="tag">quantum dynamics</a><span class="sep">, </span>
-    
-      <a href="/tags/universality" class="page__taxonomy-item p-category" rel="tag">universality</a>
-    
-    </span>
-  </p>
-
-
-
-
-  
-
-
-  
-
-  <p class="page__taxonomy">
-    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
-    <span itemprop="keywords">
-    
-      <a href="/categories/blitz-note" class="page__taxonomy-item p-category" rel="tag">blitz note</a>
-    
-    </span>
-  </p>
 
 
         
-
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-25T18:20:00+00:00">January 25, 2024</time></p>
 
       </footer>
 
@@ -489,221 +502,19 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Blitz+Note%3A+Measurement-Induced+Phase+Transition+%28MIPT%29%20https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F25%2Fmipt.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Presentations%20https%3A%2F%2Fhtwei17.github.io%2Ftalks" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Fblitz%2520note%2F2024%2F01%2F25%2Fmipt.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhtwei17.github.io%2Ftalks" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://htwei17.github.io/blitz%20note/2024/01/25/mipt.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://htwei17.github.io/talks" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
-  <nav class="pagination">
-    
-      <a href="/blitz%20note/2024/01/16/locc.html" class="pagination--pager" title="Blitz Note: Local Operations and Classical Communication (LOCC)
-">Previous</a>
-    
-    
-      <a href="/blitz%20note/2024/10/23/nagaoka.html" class="pagination--pager" title="Blitz Note: Nagaoka ferromagnetism in triangular lattice
-">Next</a>
-    
-  </nav>
-
     </div>
 
     
   </article>
-
-  
-  
-    
-<div class="page__related">
-  
-  <h2 class="page__related-title">You may also enjoy</h2>
-  <div class="grid__wrapper">
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/fanJingShan.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/note/2025/10/08/hubbard.html" rel="permalink">Note: Making a Hubbard model
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Derivation of the (Fermi-)Hubbard model on a tunnel-coupled tweezer array
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/fanJingShan.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blitz%20note/2024/10/23/nagaoka.html" rel="permalink">Blitz Note: Nagaoka ferromagnetism in triangular lattice
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/fanJingShan.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blitz%20note/2024/01/16/locc.html" rel="permalink">Blitz Note: Local Operations and Classical Communication (LOCC)
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Effect of classical communication on quantum operations
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/fanJingShan.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blitz%20note/2024/01/16/povm.html" rel="permalink">Blitz Note: Quantum Measurement
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">POVM and Kraus Operators
-</p>
-  </article>
-</div>
-
-    
-  </div>
-</div>
 
   
   
