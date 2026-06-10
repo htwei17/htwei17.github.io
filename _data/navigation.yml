@@ -5,7 +5,9 @@ main:
   - title: "CV"
     url: /cv
   - title: "Publications"
-    url: /pub
+    url: /pubs
+  - title: "Presentations"
+    url: /talks
   # - title: "Proper Time (Posts)"
   - title: "Posts"
     url: /posts/

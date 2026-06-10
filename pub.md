@@ -1,9 +1,8 @@
 ---
-title: "Publications & Invited Talks"
-permalink: /pubs-talks/
+title: "Publications"
+permalink: /pubs
 layout: reversed
-paper_count: 8
-talk_count: 3
+start_count: 8
 header:
    overlay_image: "/assets/images/guangyun.jpg"
 ---
@@ -39,17 +38,3 @@ header:
 7. YD Liao, H Li, Z Yan, **H-T Wei**, W Li, Y Qi, ZY Meng,  
    _Phase diagram of the quantum Ising model on a triangular lattice under external field_  
    [Physical Review B 103.104416 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416)
-
----
-
-# Invited Talks
-
-1. IFF-CSIC, 2026  
-   _A universal and efficient hybrid analog-digital fermionic quantum simulator_
-
-2. Virginia Tech, 2026  
-   _A universal and efficient hybrid analog-digital fermionic quantum simulator_
-
-3. University of Rochester, 2026  
-   _A universal and efficient hybrid analog-digital fermionic quantum simulator_
-{: reversed="reversed" start="{{ page.invited_talk_count }}" .talk-list}
