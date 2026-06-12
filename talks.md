@@ -9,13 +9,13 @@ header:
 
 # Invited Talks
 
-1. University of Rochester, June 2026  
+1. University of Rochester, Rochester, NY, June 2026  
    _A universal and efficient hybrid analog-digital fermionic quantum simulator_
 
-2. Virginia Tech, May 2026  
+2. Virginia Tech, Blacksburg, VA, May 2026  
    _A universal and efficient hybrid analog-digital fermionic quantum simulator_
 
-3. IFF-CSIC, April 2026  
+3. IFF-CSIC (online), Madrid, Spain, April 2026  
    _A universal and efficient hybrid analog-digital fermionic quantum simulator_
 
 ---

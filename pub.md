@@ -31,7 +31,7 @@ header:
    [Nature Physics 18.1356–61 (2022)](https://www.nature.com/articles/s41567-022-01725-6) [[**In the News**]](https://www.nature.com/articles/s41567-022-01733-6)
 5. ZZ Yan, BM Spar, ML Prichard, S Chi, **H-T Wei**, E Ibarra-García-Padilla, KRA Hazzard, WS Bakr,  
    _Two-Dimensional Programmable Tweezer Arrays of Fermions_  
-   [Physical Review Letters 129.123201 (2022)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.123201) [[**In the News**]](https://physics.aps.org/articles/v15/s120) [**Editors' Suggestion**]
+   [Physical Review Letters 129.123201 (2022)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.123201) [**Editors' Suggestion**] [[**In the News**]](https://physics.aps.org/articles/v15/s120)
 6. E Ibarra-García-Padilla, S Dasgupta, **H-T Wei**, S Taie, Y Takahashi, RT Scalettar, KRA Hazzard,  
    _Universal thermodynamics of an SU⁡(𝑁) Fermi-Hubbard model_  
    [Physical Review A 104.043316 (2021)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.043316) [**Editors' Suggestion**]
