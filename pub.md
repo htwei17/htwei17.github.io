@@ -2,7 +2,7 @@
 title: "Publications"
 permalink: /pubs
 layout: reversed
-start_count: 8
+start_count: 10
 header:
    overlay_image: "/assets/images/guangyun.jpg"
 ---
@@ -38,3 +38,14 @@ header:
 7. YD Liao, H Li, Z Yan, **H-T Wei**, W Li, Y Qi, ZY Meng,  
    _Phase diagram of the quantum Ising model on a triangular lattice under external field_  
    [Physical Review B **103**, 104416 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416)
+
+---
+
+# Thesis
+
+8. **H-T Wei**,  
+   _Programmable, Universal, and Efficient Quantum Simulation with Tunnel-Coupled Fermionic Atoms_  
+   Ph.D. Thesis, Rice University (2026)
+9.  **H-T Wei**,  
+   _Behaviors of Uniform Magnetic Susceptibility near KT Critical Temperature in Triangular-lattice Easy-axis Antiferromagnetic Systems_  
+   Bachelor's Thesis, Fudan University (2020)
