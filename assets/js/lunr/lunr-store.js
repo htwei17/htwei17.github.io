@@ -33,5 +33,5 @@ var store = [{
         "excerpt":"This is a note I made before I published the paper on Hubbard model parameters for tunnel-coupled tweezer arrays. The note is not as polished as the paper, but it contains more useful details and discussion which I believe are insightful.   DOI: 10.5281/zenodo.18158176     ","categories": ["note"],
         "tags": ["quantum","quantum many-body theory","magnetism","hubbard model"],
         "url": "/note/2025/10/08/hubbard.html",
-        "teaser": "/assets/images/fanJingShan.jpg"
+        "teaser": "/assets/images/mountain.jpg"
       }]
