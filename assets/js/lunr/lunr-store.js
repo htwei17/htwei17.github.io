@@ -34,4 +34,10 @@ var store = [{
         "tags": ["quantum","quantum many-body theory","magnetism","hubbard model"],
         "url": "/note/2025/10/08/hubbard.html",
         "teaser": "/assets/images/mountain.jpg"
+      },{
+        "title": "Rice University LaTeX thesis template",
+        "excerpt":"Hey, I have edited and updated the (possibly outdated) Rice University thesis template on:     Overleaf   Github   Definitely check it out and give me feedback!  ","categories": ["blog"],
+        "tags": ["LaTeX","Rice University","thesis"],
+        "url": "/blog/2026/08/17/thesis-template.html",
+        "teaser": "/assets/images/guangYun.jpg"
       }]
