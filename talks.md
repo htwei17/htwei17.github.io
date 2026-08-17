@@ -4,7 +4,7 @@ permalink: /talks
 layout: reversed
 start_count: 3
 header:
-   overlay_image: "/assets/images/sunOnTheArc.jpg"
+   overlay_image: "/assets/images/sun_on_arc.jpg"
 ---
 
 # Invited Talks

@@ -98,7 +98,7 @@ reCaptcha:
   secret: # "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
 
 # Styling settings
-teaser: /assets/images/fanJingShan.jpg
+teaser: /assets/images/fan_jing_shan.jpg
 # logo: /assets/images/logo.png
 masthead_title: Haotian Wei
 
@@ -137,7 +137,7 @@ defaults:
         nav: main
       header:
         nav: main
-        overlay_image: "/assets/images/SUN.png"
+        overlay_image: "/assets/images/sun_particle.png"
         overlay_filter: 0.25 # same as adding an opacity of 0.2 to a black background
   # _posts
   - scope:
