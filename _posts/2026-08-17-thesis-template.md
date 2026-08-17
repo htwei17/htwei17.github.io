@@ -9,7 +9,7 @@ tags:
   - Rice University
   - thesis
 header:
-  teaser: /assets/images/guangYun.jpg
+  teaser: /assets/images/guangyun.jpg
 ---
 
 Hey, I have edited and updated the (possibly outdated) Rice University thesis template on:
