@@ -4,7 +4,7 @@ permalink: /pubs
 layout: reversed
 start_count: 10
 header:
-   overlay_image: "/assets/images/guangyun.jpg"
+   overlay_image: "/assets/images/guang_yun.jpg"
 ---
 
 # Preprints
