@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - main  # This is the source branch
+  workflow_dispatch:
+  schedule:
+    # Publish the dated honor after Nov 6, 2026 (05:17 UTC = 00:17 New York).
+    # Retry on the following two days; this annual schedule can be removed after release.
+    - cron: '17 5 7-9 11 *'
 
 jobs:
   jekyll:
