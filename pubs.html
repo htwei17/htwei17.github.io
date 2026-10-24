@@ -75,7 +75,7 @@
 <link rel="stylesheet" href="/assets/css/main-dark.css" media="(prefers-color-scheme: dark)">
   </head>
 
-  <body class="layout--reversed">
+  <body class="layout--single-math">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -118,7 +118,7 @@
                 href="/talks"
                 
                 
-              >Presentations</a>
+              >Awards and talks</a>
             </li><li class="masthead__menu-item">
               <a
                 href="/posts/"
@@ -179,7 +179,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          1 minute read
+          2 minute read
         
       </span>
     
@@ -368,7 +368,7 @@
       
         <li>
           
-            <a href="/talks"><span class="nav__sub-title">Presentations</span></a>
+            <a href="/talks"><span class="nav__sub-title">Awards and talks</span></a>
           
 
           
@@ -420,89 +420,270 @@
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
-<style>
-  /* 1. Initialize the counter */
-  .reversed-container {
-    /* We add 1 to the user's number so the count starts correctly */
-    counter-reset: rev-counter 11;
-  }
+<link rel="stylesheet" href="/assets/css/publications.css" />
 
-  /* 2. Hide default list numbers */
-  .reversed-container ol {
-    list-style: none !important;
-    margin-left: 0;
-    padding-left: 0;
-  }
+<!--
+Edit publication content directly below using Markdown.
+To add an entry, copy an <article> block into the appropriate section.
+Keep the wrappers, markdown="1", and {: .pub__...} lines for styling.
+Paper/code links go in .pub__links; news links go inside <details>.
+-->
 
-  /* 3. Style the list items to show our custom counter */
-  .reversed-container ol li {
-    counter-increment: rev-counter -1; /* Decrement by 1 */
-    position: relative;
-    padding-left: 2.5em; /* Space for the number */
-    margin-bottom: 0.5em;
-  }
+<div id="publications" class="research-list">
 
-  /* 4. The fake number */
-  .reversed-container ol li::before {
-    content: counter(rev-counter) ".";
-    position: absolute;
-    left: 0.5em; /* Adjust horizontal position */
-    font-weight: bold;
-    color: #444; /* Optional: adjust color */
-  }
-</style>
+  <section class="pubs__group" aria-labelledby="preprints">
 
-<div class="reversed-container">
-  <h1 id="preprints">Preprints</h1>
+    <h1 id="preprints">Preprints</h1>
 
-<ol>
-  <li><strong>H-T Wei</strong>, KRA Hazzard,<br />
-<em>A universal and efficient hybrid digital-analog fermionic quantum simulator</em><br />
-<a href="https://arxiv.org/abs/2606.05517">arXiv:2606.05517 (2026)</a></li>
-</ol>
+    <article class="pub">
+      <div class="pub__year">2026<span class="pub__type">Preprint</span></div>
+      <div class="pub__body">
 
-<hr />
+        <p class="pub__meta"><span>Variational quantum simulation</span></p>
 
-<h1 id="publications">Publications</h1>
+        <h3 class="pub__title" id="a-universal-and-efficient-hybrid-digital-analog-fermionic-quantum-simulator"><a href="https://arxiv.org/abs/2606.05517">A universal and efficient hybrid digital-analog fermionic quantum simulator</a></h3>
 
-<ol>
-  <li>Z Li, R De, R Sivakumar, W Huie, <strong>H-T Wei</strong>, JD Piel, CH Greene, KRA Hazzard, ZZ Yan, JP Covey,<br />
-<em>Quantum Science with Arrays of Metastable Helium-3 Atoms</em><br />
-<a href="https://journals.aps.org/prxquantum/abstract/10.1103/hpnb-6ql3">PRX Quantum <strong>7</strong>, 033011 (2026)</a> <a href="https://physics.aps.org/articles/v19/s79">[<strong>In the News</strong>]</a></li>
-  <li>D Kim, S Dasgupta, X Ma, J-M Park, <strong>H-T Wei</strong>, L Luo, J Doumani, X Li, W Yang, D Cheng, RHJ Kim, HO Everitt, S Kimura, H Nojiri, J Wang, S Cao, M Bamba, KRA Hazzard, J Kono,<br />
-<em>Observation of the magnonic Dicke superradiant phase transition</em><br />
-<a href="https://www.science.org/doi/10.1126/sciadv.adt1691">Science Advances <strong>11</strong>, eadt1691 (2025)</a> <a href="https://www.earth.com/news/quantum-phase-superradiant-phase-transition-srpt-observed-in-lab/">[<strong>In the News</strong>]</a></li>
-  <li><strong>H-T Wei</strong>, E Ibarra-García-Padilla, ML Wall, KRA Hazzard,<br />
-<em>Hubbard parameters for programmable tweezer arrays</em><br />
-<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.013318">Physical Review A <strong>109</strong>, 013318 (2024)</a> [<strong>Editors’ Suggestion</strong>]</li>
-  <li>S Taie, E Ibarra-García-Padilla, N Nishizawa, Y Takasu, Y Kuno, <strong>H-T Wei</strong>, RT Scalettar, KRA Hazzard, Y Takahashi,<br />
-<em>Observation of antiferromagnetic correlations in an ultracold SU(N) Hubbard model</em><br />
-<a href="https://www.nature.com/articles/s41567-022-01725-6">Nature Physics <strong>18</strong>, 1356–61 (2022)</a> <a href="https://www.nature.com/articles/s41567-022-01733-6">[<strong>In the News</strong>]</a></li>
-  <li>ZZ Yan, BM Spar, ML Prichard, S Chi, <strong>H-T Wei</strong>, E Ibarra-García-Padilla, KRA Hazzard, WS Bakr,<br />
-<em>Two-Dimensional Programmable Tweezer Arrays of Fermions</em><br />
-<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.123201">Physical Review Letters <strong>129</strong>, 123201 (2022)</a> [<strong>Editors’ Suggestion</strong>] <a href="https://physics.aps.org/articles/v15/s120">[<strong>In the News</strong>]</a></li>
-  <li>E Ibarra-García-Padilla, S Dasgupta, <strong>H-T Wei</strong>, S Taie, Y Takahashi, RT Scalettar, KRA Hazzard,<br />
-<em>Universal thermodynamics of an SU⁡(𝑁) Fermi-Hubbard model</em><br />
-<a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.104.043316">Physical Review A <strong>104</strong>, 043316 (2021)</a> [<strong>Editors’ Suggestion</strong>]</li>
-  <li>YD Liao, H Li, Z Yan, <strong>H-T Wei</strong>, W Li, Y Qi, ZY Meng,<br />
-<em>Phase diagram of the quantum Ising model on a triangular lattice under external field</em><br />
-<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.104416">Physical Review B <strong>103</strong>, 104416 (2021)</a></li>
-</ol>
+        <p class="pub__authors"><strong>Hao-Tian Wei</strong> and Kaden R. A. Hazzard</p>
 
-<hr />
+        <p class="pub__venue">arXiv:2606.05517</p>
 
-<h1 id="thesis">Thesis</h1>
+        <ul class="pub__links">
+          <li><a href="https://arxiv.org/abs/2606.05517">Read preprint</a></li>
+        </ul>
 
-<ol>
-  <li><strong>H-T Wei</strong>,<br />
-<em>Programmable, Universal, and Efficient Quantum Simulation with Tunnel-Coupled Fermionic Atoms</em><br />
-Ph.D. Thesis, Rice University (2026)</li>
-  <li><strong>H-T Wei</strong>,<br />
-   <em>Behaviors of Uniform Magnetic Susceptibility near KT Critical Temperature in Triangular-lattice Easy-axis Antiferromagnetic Systems</em><br />
-   Bachelor’s Thesis, Fudan University (2020)</li>
-</ol>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="pubs__group" aria-labelledby="journal-articles">
+
+    <h1 id="journal-articles">Journal articles</h1>
+
+    <article class="pub">
+      <div class="pub__year">2026<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>Atomic platforms</span></p>
+
+        <h3 class="pub__title" id="quantum-science-with-arrays-of-metastable-helium-3-atoms"><a href="https://doi.org/10.1103/hpnb-6ql3">Quantum Science with Arrays of Metastable Helium-3 Atoms</a></h3>
+
+        <p class="pub__authors">Z. Li, R. De, R. Sivakumar, W. Huie, <strong>H.-T. Wei</strong>, J. D. Piel, C. H. Greene, K. R. A. Hazzard, Z. Z. Yan, and J. P. Covey</p>
+
+        <p class="pub__venue">PRX Quantum 7, 033011</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1103/hpnb-6ql3">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2601.06763">arXiv</a></li>
+        </ul>
+
+        <details class="pub__coverage">
+          <summary>News coverage</summary>
+
+          <ul class="pub__outlets">
+            <li><a href="https://physics.aps.org/articles/v19/s79">APS Physics</a></li>
+            <li><a href="https://quantumzeitgeist.com/quantum-helium-3-simulations-atoms/">Quantum Zeitgeist</a></li>
+          </ul>
+
+        </details>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2025<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>Collective quantum phenomena</span></p>
+
+        <h3 class="pub__title" id="observation-of-the-magnonic-dicke-superradiant-phase-transition"><a href="https://doi.org/10.1126/sciadv.adt1691">Observation of the magnonic Dicke superradiant phase transition</a></h3>
+
+        <p class="pub__authors">D. Kim, S. Dasgupta, X. Ma, J.-M. Park, <strong>H.-T. Wei</strong>, L. Luo, J. Doumani, X. Li, W. Yang, D. Cheng, R. H. J. Kim, H. O. Everitt, S. Kimura, H. Nojiri, J. Wang, S. Cao, M. Bamba, K. R. A. Hazzard, and J. Kono</p>
+
+        <p class="pub__venue">Science Advances 11, eadt1691</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1126/sciadv.adt1691">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2401.01873">arXiv</a></li>
+        </ul>
+
+        <details class="pub__coverage">
+          <summary>News coverage</summary>
+
+          <ul class="pub__outlets">
+            <li><a href="https://news.rice.edu/news/2025/scientists-observe-exotic-quantum-phase-once-thought-impossible">Rice News</a></li>
+            <li><a href="https://www.earth.com/news/quantum-phase-superradiant-phase-transition-srpt-observed-in-lab/">Earth.com</a></li>
+            <li><a href="https://bioengineer.org/scientists-discover-exotic-quantum-phase-once-considered-impossible/">Bioengineer.org</a></li>
+          </ul>
+
+        </details>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2024<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>Programmable tweezer arrays</span> <span class="pub__badge">Editors’ Suggestion</span></p>
+
+        <h3 class="pub__title" id="hubbard-parameters-for-programmable-tweezer-arrays"><a href="https://doi.org/10.1103/PhysRevA.109.013318">Hubbard parameters for programmable tweezer arrays</a></h3>
+
+        <p class="pub__authors"><strong>Hao-Tian Wei</strong>, Eduardo Ibarra-García-Padilla, Michael L. Wall, and Kaden R. A. Hazzard</p>
+
+        <p class="pub__venue">Physical Review A 109, 013318</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1103/PhysRevA.109.013318">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2306.03019">arXiv</a></li>
+          <li><a href="https://github.com/htwei17/HubbardTweezer">Code</a></li>
+        </ul>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2022<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>SU(N) quantum matter</span></p>
+
+        <h3 class="pub__title" id="observation-of-antiferromagnetic-correlations-in-an-ultracold-sun-hubbard-model"><a href="https://doi.org/10.1038/s41567-022-01725-6">Observation of antiferromagnetic correlations in an ultracold SU(N) Hubbard model</a></h3>
+
+        <p class="pub__authors">S. Taie, E. Ibarra-García-Padilla, N. Nishizawa, Y. Takasu, Y. Kuno, <strong>H.-T. Wei</strong>, R. T. Scalettar, K. R. A. Hazzard, and Y. Takahashi</p>
+
+        <p class="pub__venue">Nature Physics 18, 1356–1361</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1038/s41567-022-01725-6">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2010.07730">arXiv</a></li>
+        </ul>
+
+        <details class="pub__coverage">
+          <summary>News coverage</summary>
+
+          <ul class="pub__outlets">
+            <li><a href="https://www.bbc.com/mundo/noticias-63234476">BBC Mundo</a></li>
+            <li><a href="https://mp.weixin.qq.com/s/Ai1FU1cvKSVjARctaU5-0Q">Principia Physics</a></li>
+            <li><a href="https://doi.org/10.1038/s41567-022-01733-6">Nature Physics News &amp; Views</a></li>
+            <li><a href="https://www.newscientist.com/article/2336247-quantum-magnet-is-billions-of-times-colder-than-interstellar-space/">New Scientist</a></li>
+            <li><a href="https://www.popsci.com/science/create-the-coldest-matter-in-the-universe/">Popular Science</a></li>
+            <li><a href="https://www.space.com/coldest-matter-in-universe-created-in-lab">Space.com</a></li>
+            <li><a href="https://cosmosmagazine.com/science/physics/quantum-magnetism-absolute-zero/">Cosmos</a></li>
+            <li><a href="https://news.rice.edu/news/2022/sun-matter-about-3-billion-times-colder-deep-space">Rice News</a></li>
+            <li><a href="https://www.heise.de/select/tr/2023/5/2313514123978246311">MIT Technology Review (German)</a></li>
+            <li><a href="https://www.youtube.com/watch?v=YU6P0A3N2_o">ScienceToday · YouTube</a></li>
+            <li><a href="https://www.youtube.com/watch?v=vyJBw-GrYt4&amp;t=11s">Ciência News · YouTube</a></li>
+            <li><a href="https://phys.org/news/2022-09-sun-billion-colder-deep-space.html">Phys.org</a></li>
+            <li><a href="https://www.ucdavis.edu/news/ultracold-atoms-enable-quantum-discoveries">UC Davis News</a></li>
+          </ul>
+
+        </details>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2022<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>Programmable tweezer arrays</span> <span class="pub__badge">Editors’ Suggestion</span></p>
+
+        <h3 class="pub__title" id="two-dimensional-programmable-tweezer-arrays-of-fermions"><a href="https://doi.org/10.1103/PhysRevLett.129.123201">Two-Dimensional Programmable Tweezer Arrays of Fermions</a></h3>
+
+        <p class="pub__authors">Z. Z. Yan, B. M. Spar, M. L. Prichard, S. Chi, <strong>H.-T. Wei</strong>, E. Ibarra-García-Padilla, K. R. A. Hazzard, and W. S. Bakr</p>
+
+        <p class="pub__venue">Physical Review Letters 129, 123201</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1103/PhysRevLett.129.123201">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2203.15023">arXiv</a></li>
+        </ul>
+
+        <details class="pub__coverage">
+          <summary>News coverage</summary>
+
+          <ul class="pub__outlets">
+            <li><a href="https://physics.aps.org/articles/v15/s120">APS Physics</a></li>
+          </ul>
+
+        </details>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2021<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>SU(N) quantum matter</span> <span class="pub__badge">Editors’ Suggestion</span></p>
+
+        <h3 class="pub__title" id="universal-thermodynamics-of-an-sun-fermi-hubbard-model"><a href="https://doi.org/10.1103/PhysRevA.104.043316">Universal thermodynamics of an SU(N) Fermi-Hubbard model</a></h3>
+
+        <p class="pub__authors">E. Ibarra-García-Padilla, S. Dasgupta, <strong>H.-T. Wei</strong>, S. Taie, Y. Takahashi, R. T. Scalettar, and K. R. A. Hazzard</p>
+
+        <p class="pub__venue">Physical Review A 104, 043316</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1103/PhysRevA.104.043316">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2108.04153">arXiv</a></li>
+        </ul>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2021<span class="pub__type">Journal article</span></div>
+      <div class="pub__body">
+
+        <p class="pub__meta"><span>Frustrated magnetism</span></p>
+
+        <h3 class="pub__title" id="phase-diagram-of-the-quantum-ising-model-on-a-triangular-lattice-under-external-field"><a href="https://doi.org/10.1103/PhysRevB.103.104416">Phase diagram of the quantum Ising model on a triangular lattice under external field</a></h3>
+
+        <p class="pub__authors">Y. D. Liao, H. Li, Z. Yan, <strong>H.-T. Wei</strong>, W. Li, Y. Qi, and Z. Y. Meng</p>
+
+        <p class="pub__venue">Physical Review B 103, 104416</p>
+
+        <ul class="pub__links">
+          <li><a href="https://doi.org/10.1103/PhysRevB.103.104416">Read paper</a></li>
+          <li><a href="https://arxiv.org/abs/2101.11610">arXiv</a></li>
+        </ul>
+
+      </div>
+    </article>
+
+  </section>
+
+  <section class="pubs__group" aria-labelledby="theses">
+
+    <h2 id="theses">Theses</h2>
+
+    <article class="pub">
+      <div class="pub__year">2026<span class="pub__type">Ph.D. thesis</span></div>
+      <div class="pub__body">
+
+        <h3 class="pub__title" id="programmable-universal-and-efficient-quantum-simulation-with-tunnel-coupled-fermionic-atoms">Programmable, Universal, and Efficient Quantum Simulation with Tunnel-Coupled Fermionic Atoms</h3>
+
+        <p class="pub__authors">Haotian Wei · Rice University</p>
+
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__year">2020<span class="pub__type">Bachelor’s thesis</span></div>
+      <div class="pub__body">
+
+        <h3 class="pub__title" id="behaviors-of-uniform-magnetic-susceptibility-near-kt-critical-temperature-in-triangular-lattice-easy-axis-antiferromagnetic-systems">Behaviors of Uniform Magnetic Susceptibility near KT Critical Temperature in Triangular-lattice Easy-axis Antiferromagnetic Systems</h3>
+
+        <p class="pub__authors">Haotian Wei · Fudan University</p>
+
+      </div>
+    </article>
+
+  </section>
 
 </div>
+
         
       </section>
 

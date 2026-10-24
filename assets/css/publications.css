@@ -1,0 +1,216 @@
+/* Shared publication, honor, and invited-talk lists. The existing template supplies the page and typography.
+   Every selector is scoped to this component. Orange badges mark editors' suggestions;
+   a lightly tinted panel groups each publication's news coverage. */
+.research-list {
+  min-width: 0;
+}
+
+.research-list .pubs__group + .pubs__group {
+  margin-block-start: 2em;
+}
+
+.research-list .pub {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4.5em minmax(0, 1fr);
+  gap: 1.25em;
+  margin: 0;
+  padding-block: 1.25em;
+}
+
+.research-list .pub--undated {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.research-list .pub + .pub::before {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline: 0;
+  border-block-start: 1px solid currentColor;
+  opacity: .18;
+  content: "";
+}
+
+.research-list .pub__year {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.research-list .pub__type {
+  display: block;
+  margin-block-start: .2em;
+  font-size: .75em;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.research-list .pub__body {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.research-list .pub__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4em .8em;
+  margin: 0 0 .6em;
+  font-size: .75em;
+  line-height: 1.5;
+}
+
+.research-list .pub__badge {
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: .2em;
+  background-color: transparent;
+  color: #a95400;
+  padding: .1em .45em;
+  font-size: .95em;
+}
+
+.research-list .pub__title {
+  margin: 0 0 .55em;
+  padding: 0;
+  border: 0;
+  line-height: 1.4;
+}
+
+.research-list .pub__authors,
+.research-list .pub__venue {
+  margin: .4em 0 0;
+  font-size: .85em;
+  line-height: 1.65;
+  text-indent: 0;
+}
+
+.research-list .pub__venue {
+  font-style: italic;
+}
+
+.research-list .pub__links,
+.research-list .pub__outlets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5em;
+  margin: .8em 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: .8em;
+}
+
+.research-list .pub__links > li,
+.research-list .pub__outlets > li {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  list-style: none;
+}
+
+.research-list .pub__links a,
+.research-list .pub__outlets a {
+  display: block;
+  padding: .4em .7em;
+  border: 1px solid currentColor;
+  border-radius: .2em;
+  line-height: 1.5;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.research-list .pub__links a:hover,
+.research-list .pub__outlets a:hover {
+  text-decoration: underline;
+}
+
+.research-list .pub__coverage {
+  --coverage-border: #b9ccd9;
+  --coverage-hover: #e9f1f7;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  margin-block-start: .8em;
+  border: 1px solid var(--coverage-border);
+  border-radius: .3em;
+  background-color: #f4f8fb;
+  color: #315268;
+}
+
+.research-list .pub__coverage[open] {
+  width: 100%;
+}
+
+.research-list .pub__coverage > summary {
+  display: list-item;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-height: 44px;
+  padding: .55em .85em;
+  border: 0;
+  border-radius: inherit;
+  background-color: transparent;
+  color: inherit;
+  font-size: .85em;
+  font-weight: 700;
+  line-height: 1.6;
+  list-style-position: inside;
+  cursor: pointer;
+}
+
+.research-list .pub__coverage > summary:hover {
+  background-color: var(--coverage-hover);
+}
+
+.research-list .pub__coverage[open] > summary {
+  border-block-end: 1px solid var(--coverage-border);
+  border-end-start-radius: 0;
+  border-end-end-radius: 0;
+}
+
+.research-list .pub__coverage > .pub__outlets {
+  margin: 0;
+  padding: .85em .9em;
+}
+
+.research-list .pub__outlets a {
+  color: inherit;
+}
+
+.research-list a:focus-visible,
+.research-list summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .research-list .pub__badge {
+    color: #ffbd80;
+  }
+
+  .research-list .pub__coverage {
+    --coverage-border: #7891a5;
+    --coverage-hover: #3a4c5a;
+    background-color: #303e4a;
+    color: #dfebf3;
+  }
+}
+
+@media (max-width: 48em) {
+  .research-list .pub {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .65em;
+    padding-block: 1.1em;
+  }
+
+  .research-list .pub__year {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .7em;
+  }
+
+  .research-list .pub__type {
+    margin: 0;
+  }
+}
