@@ -137,7 +137,7 @@ defaults:
         nav: main
       header:
         nav: main
-        overlay_image: "/assets/images/sun_particle.png"
+        overlay_image: "/assets/images/sun_particle.jpg"
         overlay_filter: 0.25 # same as adding an opacity of 0.2 to a black background
   # _posts
   - scope:
