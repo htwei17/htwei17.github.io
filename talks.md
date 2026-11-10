@@ -44,7 +44,7 @@ Fudan University
 ### Steven Weinberg Research Award
 {: .pub__title #honor-weinberg}
 
-TAOAPS
+Texas, Arkansas, Oklahoma Section of APS
 {: .pub__venue}
 
 </div>
