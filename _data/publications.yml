@@ -1,0 +1,156 @@
+# Publications data - edit this file to manage your publications
+# Each entry will be rendered with the .pub component styling
+
+preprints:
+  - title: "A universal and efficient hybrid digital-analog fermionic quantum simulator"
+    authors: "**Hao-Tian Wei** and Kaden R. A. Hazzard"
+    year: 2026
+    type: "Preprint"
+    meta: "Variational quantum simulation"
+    venue: "arXiv:2606.05517"
+    links:
+      - text: "Read preprint"
+        url: "https://arxiv.org/abs/2606.05517"
+
+journal_articles:
+  - title: "Quantum Science with Arrays of Metastable Helium-3 Atoms"
+    authors: "Z. Li, R. De, R. Sivakumar, W. Huie, **H.-T. Wei**, J. D. Piel, C. H. Greene, K. R. A. Hazzard, Z. Z. Yan, and J. P. Covey"
+    year: 2026
+    type: "Journal article"
+    meta: "Atomic platforms"
+    venue: "PRX Quantum 7, 033011"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1103/hpnb-6ql3"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2601.06763"
+    coverage:
+      - text: "APS Physics"
+        url: "https://physics.aps.org/articles/v19/s79"
+      - text: "Quantum Zeitgeist"
+        url: "https://quantumzeitgeist.com/quantum-helium-3-simulations-atoms/"
+
+  - title: "Observation of the magnonic Dicke superradiant phase transition"
+    authors: "D. Kim, S. Dasgupta, X. Ma, J.-M. Park, **H.-T. Wei**, L. Luo, J. Doumani, X. Li, W. Yang, D. Cheng, R. H. J. Kim, H. O. Everitt, S. Kimura, H. Nojiri, J. Wang, S. Cao, M. Bamba, K. R. A. Hazzard, and J. Kono"
+    year: 2025
+    type: "Journal article"
+    meta: "Collective quantum phenomena"
+    venue: "Science Advances 11, eadt1691"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1126/sciadv.adt1691"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2401.01873"
+    coverage:
+      - text: "Rice News"
+        url: "https://news.rice.edu/news/2025/scientists-observe-exotic-quantum-phase-once-thought-impossible"
+      - text: "Earth.com"
+        url: "https://www.earth.com/news/quantum-phase-superradiant-phase-transition-srpt-observed-in-lab/"
+      - text: "Bioengineer.org"
+        url: "https://bioengineer.org/scientists-discover-exotic-quantum-phase-once-considered-impossible/"
+
+  - title: "Hubbard parameters for programmable tweezer arrays"
+    authors: "**Hao-Tian Wei**, Eduardo Ibarra-García-Padilla, Michael L. Wall, and Kaden R. A. Hazzard"
+    year: 2024
+    type: "Journal article"
+    meta: "Programmable tweezer arrays"
+    badge: "Editors' Suggestion"
+    venue: "Physical Review A 109, 013318"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1103/PhysRevA.109.013318"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2306.03019"
+      - text: "Code"
+        url: "https://github.com/htwei17/HubbardTweezer"
+
+  - title: "Observation of antiferromagnetic correlations in an ultracold SU(N) Hubbard model"
+    authors: "S. Taie, E. Ibarra-García-Padilla, N. Nishizawa, Y. Takasu, Y. Kuno, **H.-T. Wei**, R. T. Scalettar, K. R. A. Hazzard, and Y. Takahashi"
+    year: 2022
+    type: "Journal article"
+    meta: "SU(N) quantum matter"
+    venue: "Nature Physics 18, 1356–1361"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1038/s41567-022-01725-6"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2010.07730"
+    coverage:
+      - text: "BBC Mundo"
+        url: "https://www.bbc.com/mundo/noticias-63234476"
+      - text: "Principia Physics"
+        url: "https://mp.weixin.qq.com/s/Ai1FU1cvKSVjARctaU5-0Q"
+      - text: "Nature Physics News & Views"
+        url: "https://doi.org/10.1038/s41567-022-01733-6"
+      - text: "New Scientist"
+        url: "https://www.newscientist.com/article/2336247-quantum-magnet-is-billions-of-times-colder-than-interstellar-space/"
+      - text: "Popular Science"
+        url: "https://www.popsci.com/science/create-the-coldest-matter-in-the-universe/"
+      - text: "Space.com"
+        url: "https://www.space.com/coldest-matter-in-universe-created-in-lab"
+      - text: "Cosmos"
+        url: "https://cosmosmagazine.com/science/physics/quantum-magnetism-absolute-zero/"
+      - text: "Rice News"
+        url: "https://news.rice.edu/news/2022/sun-matter-about-3-billion-times-colder-deep-space"
+      - text: "MIT Technology Review (German)"
+        url: "https://www.heise.de/select/tr/2023/5/2313514123978246311"
+      - text: "ScienceToday · YouTube"
+        url: "https://www.youtube.com/watch?v=YU6P0A3N2_o"
+      - text: "Ciência News · YouTube"
+        url: "https://www.youtube.com/watch?v=vyJBw-GrYt4&t=11s"
+      - text: "Phys.org"
+        url: "https://phys.org/news/2022-09-sun-billion-colder-deep-space.html"
+      - text: "UC Davis News"
+        url: "https://www.ucdavis.edu/news/ultracold-atoms-enable-quantum-discoveries"
+
+  - title: "Two-Dimensional Programmable Tweezer Arrays of Fermions"
+    authors: "Z. Z. Yan, B. M. Spar, M. L. Prichard, S. Chi, **H.-T. Wei**, E. Ibarra-García-Padilla, K. R. A. Hazzard, and W. S. Bakr"
+    year: 2022
+    type: "Journal article"
+    meta: "Programmable tweezer arrays"
+    badge: "Editors' Suggestion"
+    venue: "Physical Review Letters 129, 123201"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1103/PhysRevLett.129.123201"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2203.15023"
+    coverage:
+      - text: "APS Physics"
+        url: "https://physics.aps.org/articles/v15/s120"
+
+  - title: "Universal thermodynamics of an SU(N) Fermi-Hubbard model"
+    authors: "E. Ibarra-García-Padilla, S. Dasgupta, **H.-T. Wei**, S. Taie, Y. Takahashi, R. T. Scalettar, and K. R. A. Hazzard"
+    year: 2021
+    type: "Journal article"
+    meta: "SU(N) quantum matter"
+    badge: "Editors' Suggestion"
+    venue: "Physical Review A 104, 043316"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1103/PhysRevA.104.043316"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2108.04153"
+
+  - title: "Phase diagram of the quantum Ising model on a triangular lattice under external field"
+    authors: "Y. D. Liao, H. Li, Z. Yan, **H.-T. Wei**, W. Li, Y. Qi, and Z. Y. Meng"
+    year: 2021
+    type: "Journal article"
+    meta: "Frustrated magnetism"
+    venue: "Physical Review B 103, 104416"
+    links:
+      - text: "Read paper"
+        url: "https://doi.org/10.1103/PhysRevB.103.104416"
+      - text: "arXiv"
+        url: "https://arxiv.org/abs/2101.11610"
+
+theses:
+  - title: "Programmable, Universal, and Efficient Quantum Simulation with Tunnel-Coupled Fermionic Atoms"
+    authors: "Haotian Wei · Rice University"
+    year: 2026
+    type: "Ph.D. thesis"
+
+  - title: "Behaviors of Uniform Magnetic Susceptibility near KT Critical Temperature in Triangular-lattice Easy-axis Antiferromagnetic Systems"
+    authors: "Haotian Wei · Fudan University"
+    year: 2020
+    type: "Bachelor's thesis"

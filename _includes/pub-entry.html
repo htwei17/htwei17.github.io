@@ -1,0 +1,63 @@
+{% comment %}
+Render a single .pub entry from data.
+Usage: {% include pub-entry.html pub=pub %}
+       {% include pub-entry.html pub=award is_award=true %}
+       {% include pub-entry.html pub=talk is_talk=true %}
+{% endcomment %}
+
+{% assign p = include.pub | default: pub %}
+{% assign pub_class = "pub" %}
+{% if p.undated %}{% assign pub_class = "pub pub--undated" %}{% endif %}
+{% if include.is_award %}{% assign pub_class = "pub" %}{% endif %}
+{% if include.is_talk %}{% assign pub_class = "pub" %}{% endif %}
+
+<article class="{{ pub_class }}" {% if p.id %}aria-labelledby="{{ p.id }}"{% endif %}>
+  {% if p.year %}
+  <div class="pub__year">{{ p.year }}{% if p.type %}<span class="pub__type">{{ p.type }}</span>{% endif %}</div>
+  {% endif %}
+  <div class="pub__body">
+    {% if p.meta %}
+    <p class="pub__meta">
+      <span>{{ p.meta }}</span>
+      {% if p.badge %}<span class="pub__badge">{{ p.badge }}</span>{% endif %}
+    </p>
+    {% endif %}
+
+    <h3 class="pub__title" {% if p.id %}id="{{ p.id }}"{% endif %}>{{ p.title }}</h3>
+
+    {% if p.authors %}
+    <p class="pub__authors">{{ p.authors }}</p>
+    {% endif %}
+
+    {% if p.venue %}
+    <p class="pub__venue">{{ p.venue }}</p>
+    {% endif %}
+
+    {% if p.venues %}
+    <ul class="pub__venue">
+      {% for venue in p.venues %}
+      <li>{{ venue }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if p.links %}
+    <ul class="pub__links">
+      {% for link in p.links %}
+      <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if p.coverage %}
+    <details class="pub__coverage">
+      <summary>News coverage</summary>
+      <ul class="pub__outlets">
+        {% for outlet in p.coverage %}
+        <li><a href="{{ outlet.url }}">{{ outlet.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </div>
+</article>

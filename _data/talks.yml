@@ -1,0 +1,27 @@
+# Talks and awards data - edit this file to manage your awards, honors, and talks
+
+awards:
+  - title: "Steven Weinberg Research Award"
+    year: 2026
+    venue: "Texas, Arkansas, Oklahoma Section of APS"
+    id: "honor-weinberg"
+
+  - title: "Outstanding Graduate of Class 2020"
+    year: 2020
+    venue: "Fudan University"
+    id: "honor-outstanding-graduate"
+
+honor_society:
+  - title: "Member nomination"
+    venue: "Sigma Xi"
+    id: "honor-sigma-xi"
+    undated: true
+
+invited_talks:
+  - title: "A universal and efficient hybrid analog-digital fermionic quantum simulator"
+    year: 2026
+    venues:
+      - "University of Rochester, Rochester, NY (June 2026)"
+      - "Virginia Tech, Blacksburg, VA (May 2026)"
+      - "IFF-CSIC (online), Madrid, Spain (April 2026)"
+    id: "talk-hadfs"

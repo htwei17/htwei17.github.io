@@ -6,4 +6,10 @@ layout: single-math
 
 <div id="{{ page.research_list_id | default: 'research-list' }}" class="research-list">
   {{ content }}
+
+  {% if page.data_source == "publications" %}
+    {% include research-list-render.html type="publications" data=site.data.publications %}
+  {% elsif page.data_source == "talks" %}
+    {% include research-list-render.html type="talks" data=site.data.talks %}
+  {% endif %}
 </div>

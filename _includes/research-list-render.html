@@ -1,0 +1,62 @@
+{% comment %}
+Render a research-list from data files.
+Usage: {% include research-list-render.html type="publications" data=site.data.publications %}
+       {% include research-list-render.html type="talks" data=site.data.talks %}
+{% endcomment %}
+
+{% if include.type == "publications" %}
+  {% if include.data.preprints.size > 0 %}
+  <section class="pubs__group" aria-labelledby="preprints">
+    <h1 id="preprints">Preprints</h1>
+    {% for pub in include.data.preprints %}
+      {% include pub-entry.html pub=pub %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if include.data.journal_articles.size > 0 %}
+  <section class="pubs__group" aria-labelledby="journal-articles">
+    <h1 id="journal-articles">Journal articles</h1>
+    {% for pub in include.data.journal_articles %}
+      {% include pub-entry.html pub=pub %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if include.data.theses.size > 0 %}
+  <section class="pubs__group" aria-labelledby="theses">
+    <h2 id="theses">Theses</h2>
+    {% for pub in include.data.theses %}
+      {% include pub-entry.html pub=pub %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+{% elsif include.type == "talks" %}
+  {% if include.data.awards.size > 0 %}
+  <section class="pubs__group" aria-labelledby="honors">
+    <h1 id="awards">Awards</h1>
+    {% for award in include.data.awards %}
+      {% include pub-entry.html pub=award is_award=true %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if include.data.honor_society.size > 0 %}
+  <section class="pubs__group" aria-labelledby="honor-society">
+    <h1 id="honor-society">Honor society</h1>
+    {% for honor in include.data.honor_society %}
+      {% include pub-entry.html pub=honor is_honor=true %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if include.data.invited_talks.size > 0 %}
+  <section class="pubs__group" aria-labelledby="invited-talks">
+    <h1 id="invited-talks">Invited Talks</h1>
+    {% for talk in include.data.invited_talks %}
+      {% include pub-entry.html pub=talk is_talk=true %}
+    {% endfor %}
+  </section>
+  {% endif %}
+{% endif %}
