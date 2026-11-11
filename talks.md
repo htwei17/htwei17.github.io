@@ -78,40 +78,16 @@ Sigma Xi
 # Invited Talks
 {: #invited-talks}
 
-<article class="pub" aria-labelledby="talk-rochester" markdown="1">
-<div class="pub__year">2026<span class="pub__type">June</span></div>
+<article class="pub" aria-labelledby="talk-hadfs" markdown="1">
+<div class="pub__year">2026</div>
 <div class="pub__body" markdown="1">
 
 ### A universal and efficient hybrid analog-digital fermionic quantum simulator
-{: .pub__title #talk-rochester}
+{: .pub__title #talk-hadfs}
 
-University of Rochester, Rochester, NY
-{: .pub__venue}
-
-</div>
-</article>
-
-<article class="pub" aria-labelledby="talk-virginia-tech" markdown="1">
-<div class="pub__year">2026<span class="pub__type">May</span></div>
-<div class="pub__body" markdown="1">
-
-### A universal and efficient hybrid analog-digital fermionic quantum simulator
-{: .pub__title #talk-virginia-tech}
-
-Virginia Tech, Blacksburg, VA
-{: .pub__venue}
-
-</div>
-</article>
-
-<article class="pub" aria-labelledby="talk-iff-csic" markdown="1">
-<div class="pub__year">2026<span class="pub__type">April</span></div>
-<div class="pub__body" markdown="1">
-
-### A universal and efficient hybrid analog-digital fermionic quantum simulator
-{: .pub__title #talk-iff-csic}
-
-IFF-CSIC (online), Madrid, Spain
+- University of Rochester, Rochester, NY (June 2026)
+- Virginia Tech, Blacksburg, VA (May 2026)
+- IFF-CSIC (online), Madrid, Spain (April 2026)
 {: .pub__venue}
 
 </div>
