@@ -1,12 +1,11 @@
 ---
 title: "Publications"
 permalink: /pubs
-layout: single-math
+layout: research-list
+research_list_id: publications
 header:
    overlay_image: "/assets/images/guang_yun.jpg"
 ---
-
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
 
 <!--
 Edit publication content directly below using Markdown.
@@ -14,8 +13,6 @@ To add an entry, copy an <article> block into the appropriate section.
 Keep the wrappers, markdown="1", and {: .pub__...} lines for styling.
 Paper/code links go in .pub__links; news links go inside <details>.
 -->
-
-<div id="publications" class="research-list" markdown="1">
 
 <section class="pubs__group" aria-labelledby="preprints" markdown="1">
 
@@ -118,7 +115,7 @@ Science Advances 11, eadt1691
 <div class="pub__year">2024<span class="pub__type">Journal article</span></div>
 <div class="pub__body" markdown="1">
 
-<span>Programmable tweezer arrays</span> <span class="pub__badge">Editors’ Suggestion</span>
+<span>Programmable tweezer arrays</span> <span class="pub__badge">Editors' Suggestion</span>
 {: .pub__meta}
 
 ### [Hubbard parameters for programmable tweezer arrays](https://doi.org/10.1103/PhysRevA.109.013318)
@@ -185,7 +182,7 @@ Nature Physics 18, 1356–1361
 <div class="pub__year">2022<span class="pub__type">Journal article</span></div>
 <div class="pub__body" markdown="1">
 
-<span>Programmable tweezer arrays</span> <span class="pub__badge">Editors’ Suggestion</span>
+<span>Programmable tweezer arrays</span> <span class="pub__badge">Editors' Suggestion</span>
 {: .pub__meta}
 
 ### [Two-Dimensional Programmable Tweezer Arrays of Fermions](https://doi.org/10.1103/PhysRevLett.129.123201)
@@ -216,7 +213,7 @@ Physical Review Letters 129, 123201
 <div class="pub__year">2021<span class="pub__type">Journal article</span></div>
 <div class="pub__body" markdown="1">
 
-<span>SU(N) quantum matter</span> <span class="pub__badge">Editors’ Suggestion</span>
+<span>SU(N) quantum matter</span> <span class="pub__badge">Editors' Suggestion</span>
 {: .pub__meta}
 
 ### [Universal thermodynamics of an SU(N) Fermi-Hubbard model](https://doi.org/10.1103/PhysRevA.104.043316)
@@ -278,7 +275,7 @@ Haotian Wei · Rice University
 </article>
 
 <article class="pub" markdown="1">
-<div class="pub__year">2020<span class="pub__type">Bachelor’s thesis</span></div>
+<div class="pub__year">2020<span class="pub__type">Bachelor's thesis</span></div>
 <div class="pub__body" markdown="1">
 
 ### Behaviors of Uniform Magnetic Susceptibility near KT Critical Temperature in Triangular-lattice Easy-axis Antiferromagnetic Systems
@@ -291,5 +288,3 @@ Haotian Wei · Fudan University
 </article>
 
 </section>
-
-</div>

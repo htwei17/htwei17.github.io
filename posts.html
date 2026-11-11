@@ -1,5 +1,6 @@
 ---
-layout: single-math
+layout: research-list
+research_list_id: posts
 title: Posts
 permalink: /posts/
 header:
@@ -7,13 +8,10 @@ header:
 author_profile: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
-
 <!--
 Post list styled like publications/awards.
 Groups posts by year; each entry uses the .pub component.
 -->
-<div id="posts" class="research-list">
 
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
@@ -47,5 +45,3 @@ Groups posts by year; each entry uses the .pub component.
 
 </section>
 {% endfor %}
-
-</div>

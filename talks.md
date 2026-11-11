@@ -1,20 +1,18 @@
 ---
 title: "Awards and invited talks"
 permalink: /talks
-layout: single-math
+layout: research-list
+research_list_id: talks
 # Publish after November 6 has passed in America/New_York.
 weinberg_award_visible_after: "2026-11-07T00:00:00-05:00"
 header:
    overlay_image: "/assets/images/sun_on_arc.jpg"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
-
 {% comment %}
 Edit honors and talks here. Copy an article block to add another entry.
 The scheduled award is omitted from the generated page until its release date.
 {% endcomment %}
-<div id="talks" class="research-list" markdown="1">
 <section class="pubs__group" aria-labelledby="honors" markdown="1">
 
 # Awards
@@ -94,4 +92,3 @@ Sigma Xi
 </article>
 
 </section>
-</div>
