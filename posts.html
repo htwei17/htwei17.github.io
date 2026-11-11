@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: single-math
 title: Posts
 permalink: /posts/
 header:
@@ -7,15 +7,45 @@ header:
 author_profile: false
 ---
 
-<ul>
-  <!-- Define post_count to be the number of posts -->
-  {% assign post_count = site.posts.size %}
-  {% for post in site.posts %}
-  <!-- Iterate, print post_count and post title -->
-  <li>
-    {{ post_count }}. <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  <!-- Minus 1 from post_count -->
-  {% assign post_count = post_count | minus: 1 %}
-  {% endfor %}
+<link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+
+<!--
+Post list styled like publications/awards.
+Groups posts by year; each entry uses the .pub component.
+-->
+<div id="posts" class="research-list">
+
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+{% for year_group in posts_by_year %}
+<section class="pubs__group" aria-labelledby="posts-{{ year_group.name }}">
+
+<h2 id="posts-{{ year_group.name }}">{{ year_group.name }}</h2>
+
+{% for post in year_group.items %}
+<article class="pub">
+<div class="pub__year">{{ post.date | date: "%Y" }}<span class="pub__type">{{ post.date | date: "%B" }}</span></div>
+<div class="pub__body">
+
+{% if post.categories.size > 0 %}
+<p class="pub__meta"><span>{{ post.categories | join: ", " }}</span></p>
+{% endif %}
+
+<h3 class="pub__title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+{% if post.excerpt %}
+<p class="pub__venue">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+{% endif %}
+
+<ul class="pub__links">
+<li><a href="{{ post.url }}">Read post</a></li>
 </ul>
+
+</div>
+</article>
+{% endfor %}
+
+</section>
+{% endfor %}
+
+</div>
