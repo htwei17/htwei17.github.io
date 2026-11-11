@@ -20,19 +20,6 @@ The scheduled award is omitted from the generated page until its release date.
 # Awards
 {: #awards}
 
-<article class="pub" aria-labelledby="honor-outstanding-graduate" markdown="1">
-<div class="pub__year">2020</div>
-<div class="pub__body" markdown="1">
-
-### Outstanding Graduate of Class 2020
-{: .pub__title #honor-outstanding-graduate}
-
-Fudan University
-{: .pub__venue}
-
-</div>
-</article>
-
 {% assign build_time = site.time | date: '%s' | plus: 0 %}
 {% assign award_release_time = page.weinberg_award_visible_after | date: '%s' | plus: 0 %}
 {% if build_time >= award_release_time %}
@@ -45,6 +32,19 @@ Fudan University
 {: .pub__title #honor-weinberg}
 
 Texas, Arkansas, Oklahoma Section of APS
+{: .pub__venue}
+
+</div>
+</article>
+
+<article class="pub" aria-labelledby="honor-outstanding-graduate" markdown="1">
+<div class="pub__year">2020</div>
+<div class="pub__body" markdown="1">
+
+### Outstanding Graduate of Class 2020
+{: .pub__title #honor-outstanding-graduate}
+
+Fudan University
 {: .pub__venue}
 
 </div>
